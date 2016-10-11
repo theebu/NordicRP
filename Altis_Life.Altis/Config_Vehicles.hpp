@@ -15,7 +15,7 @@ class CarShops {
     class civ_car {
         side = "civ";
         vehicles[] = {
-            { "B_Quadbike_01_F", { "", "", -1 } },
+            { "C_Quadbike_01_F", { "", "", -1 } },
             { "C_Hatchback_01_F", { "", "", -1 } },
             { "C_Offroad_02_unarmed_F", { "", "", -1 } },
 			{ "I_C_Offroad_02_unarmed_F", { "", "", -1 } },
@@ -493,7 +493,7 @@ class LifeCfgVehicles {
         };
     };
 
-    class B_Quadbike_01_F {
+    class C_Quadbike_01_F {
         vItemSpace = 25;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 10500;
