@@ -68,5 +68,12 @@ if ((vehicle _unit) isKindOf "Car" && (isNull _source || _source isEqualTo _unit
 	_damage = if (life_seatbelt) then { _damage / 3 } else { _damage};
 };
 
+//boxTruck
+if ((vehicle _unit) == "C_Van_01_box_F" && (isNull _source || _source isEqualTo _unit)) then
+{
+	_damage = (getDammage (vehicle _unit)) / 2;
+	
+};
+
 [] spawn life_fnc_hudUpdate;
 _damage;
