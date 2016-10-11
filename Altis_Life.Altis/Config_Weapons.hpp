@@ -147,7 +147,7 @@ class WeaponShops {
             { "Binocular", "", 0, 0 },
             { "ItemGPS", "", 0, 0 },
             { "FirstAidKit", "", 0, 0 },
-            { "NVGoggles", "", 0, 0 }
+            { "NVGoggles_OPFOR", "", 0, 0 }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "Taser Cartridge", 0 },
@@ -157,7 +157,8 @@ class WeaponShops {
         accs[] = {
 			{ "optic_Hamr", "", 0, 0 },
             { "optic_Aco", "", 0, 0 },
-            { "muzzle_snds_L", "", 0 }
+            { "muzzle_snds_L", "", 0 },
+	        { "acc_flashlight", "", 0, 0 }
         };
     };
 	
@@ -177,7 +178,7 @@ class WeaponShops {
             { "Binocular", "", 0, 0 },
             { "ItemGPS", "", 0, 0 },
             { "FirstAidKit", "", 0, 0 },
-            { "NVGoggles", "", 0, 0 }
+            { "NVGoggles_OPFOR", "", 0, 0 }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "Taser Cartridge", 0 },
@@ -187,7 +188,8 @@ class WeaponShops {
         accs[] = {
 			{ "optic_Hamr", "", 0, 0 },
             { "optic_Aco", "", 0, 0 },
-            { "muzzle_snds_L", "", 0 }
+            { "muzzle_snds_L", "", 0 },
+	        { "acc_flashlight", "", 0, 0 }
         };
     };
 
@@ -208,7 +210,7 @@ class WeaponShops {
             { "Binocular", "", 0, 0 },
             { "ItemGPS", "", 0, 0 },
             { "FirstAidKit", "", 0, 0 },
-            { "NVGoggles", "", 0, 0 }
+            { "NVGoggles_OPFOR", "", 0, 0 }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "Taser Cartridge", 0 },
@@ -220,7 +222,8 @@ class WeaponShops {
             { "optic_Aco", "", 0, 0 },
             { "optic_DMS", "", 0, 0 },
             { "optic_AMS", "", 0, 0 },
-            { "muzzle_snds_L", "", 0 }
+            { "muzzle_snds_L", "", 0 },
+		    { "acc_flashlight", "", 0, 0 }
         };
     };
 
@@ -242,7 +245,7 @@ class WeaponShops {
             { "Binocular", "", 0, 0 },
             { "ItemGPS", "", 0, 0 },
             { "FirstAidKit", "", 0, 0 },
-            { "NVGoggles", "", 0, 0 }
+            { "NVGoggles_OPFOR", "", 0, 0 }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "Taser Cartridge", 0 },
@@ -255,7 +258,8 @@ class WeaponShops {
             { "optic_Aco", "", 0, 0 },
             { "optic_DMS", "", 0, 0 },
             { "optic_AMS", "", 0, 0 },
-            { "muzzle_snds_L", "", 0 }
+            { "muzzle_snds_L", "", 0 },
+		    { "acc_flashlight", "", 0, 0 }
         };
     };
 	    class cop_shop_5 {
@@ -276,7 +280,7 @@ class WeaponShops {
             { "Binocular", "", 0, 0 },
             { "ItemGPS", "", 0, 0 },
             { "FirstAidKit", "", 0, 0 },
-            { "NVGoggles", "", 0, 0 }
+            { "NVGoggles_OPFOR", "", 0, 0 }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "Taser Cartridge", 0 },
@@ -289,7 +293,8 @@ class WeaponShops {
             { "optic_Aco", "", 0, 0 },
             { "optic_DMS", "", 0, 0 },
             { "optic_AMS", "", 0, 0 },
-            { "muzzle_snds_L", "", 0 }
+            { "muzzle_snds_L", "", 0 },
+		    { "acc_flashlight", "", 0, 0 }
         };
     };
 	    class cop_shop_6 {
@@ -310,7 +315,8 @@ class WeaponShops {
             { "Binocular", "", 0, 0 },
             { "ItemGPS", "", 0, 0 },
             { "FirstAidKit", "", 0, 0 },
-            { "NVGoggles", "", 0, 0 }
+            { "NVGoggles_OPFOR", "", 0, 0 }
+            		
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "Taser Cartridge", 0 },
@@ -323,7 +329,8 @@ class WeaponShops {
             { "optic_Aco", "", 0, 0 },
             { "optic_DMS", "", 0, 0 },
             { "optic_AMS", "", 0, 0 },
-            { "muzzle_snds_L", "", 0 }
+            { "muzzle_snds_L", "", 0 },
+			{ "acc_flashlight", "", 0, 0 }	
         };
     };
 	    class cop_shop_7 {
@@ -344,7 +351,8 @@ class WeaponShops {
             { "Binocular", "", 0, 0 },
             { "ItemGPS", "", 0, 0 },
             { "FirstAidKit", "", 0, 0 },
-            { "NVGoggles", "", 0, 0 }
+            { "NVGoggles_OPFOR", "", 0, 0 }
+            
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "Taser Cartridge", 0 },
@@ -357,7 +365,8 @@ class WeaponShops {
             { "optic_Aco", "", 0, 0 },
             { "optic_DMS", "", 0, 0 },
             { "optic_AMS", "", 0, 0 },
-            { "muzzle_snds_L", "", 0 }
+            { "muzzle_snds_L", "", 0 },
+			{ "acc_flashlight", "", 0, 0 }
         };
     };
 	    class cop_shop_8 {
@@ -378,7 +387,8 @@ class WeaponShops {
             { "Binocular", "", 0, 0 },
             { "ItemGPS", "", 0, 0 },
             { "FirstAidKit", "", 0, 0 },
-            { "NVGoggles", "", 0, 0 }
+            { "NVGoggles_OPFOR", "", 0, 0 },
+            { "acc_flashlight", "", 0, 0 }			
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "Taser Cartridge", 0 },

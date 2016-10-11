@@ -766,6 +766,9 @@
             <Portuguese>Ação Cancelada</Portuguese>
             <Polish>Anulowano akcję</Polish>
         </Key>
+		<Key ID="STR_NOTF_ATM">
+			<Original>ATM</Original>
+        </Key>
         <Key ID="STR_NOTF_PlaceContainer">
             <Original>Hit spacebar to place the container.</Original>
             <Czech>Hit mezerníku na místo Kontejner.</Czech>
