@@ -85,6 +85,7 @@ class CarShops {
         side = "med";
         vehicles[] = {
             { "C_Offroad_01_red_F", { "", "", -1 } },
+            { "C_Van_01_box_F", { "", "", -1 } },
 			{ "B_MRAP_01_F", { "life_mediclevel", "SCALAR", 2 } }
         };
     };
@@ -92,7 +93,6 @@ class CarShops {
     class med_air_hs {
         side = "med";
         vehicles[] = {
-            { "C_Heli_light_01_red_F", { "", "", -1 } },
             { "I_Heli_light_03_unarmed_F", { "life_mediclevel", "SCALAR", 2 } }
         };
     };
@@ -730,6 +730,10 @@ class LifeCfgVehicles {
             } },
             { "Red", "civ", {
                 "\a3\soft_f_gamma\Van_01\Data\van_01_ext_red_co.paa"
+            } },
+			{ "Medic", "med", {
+                "textures\medic\TruckBox1.jpg",
+                "textures\medic\TruckBox2.jpg"
             } }
         };
     };
