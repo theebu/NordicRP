@@ -69,10 +69,10 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "hgun_Rook40_F", "", 1500, 500 },
-            { "hgun_Pistol_heavy_02_F", "", 2500, -1 },
-            { "hgun_ACPC2_F", "", 4500, -1 },
-            { "hgun_PDW2000_F", "", 9500, -1 }
+            { "hgun_Rook40_F", "", 20500, 500 },
+            { "hgun_Pistol_heavy_02_F", "", 31500, -1 },
+            { "hgun_ACPC2_F", "", 35000, -1 },
+            { "hgun_PDW2000_F", "", 95500, -1 }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 25 },
