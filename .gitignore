@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
@@ -46,3 +47,6 @@ Network Trash Folder
 Temporary Items
 .apdisk
 Altis_Life.Altis.pbo
+=======
+*.pbo
+>>>>>>> refs/remotes/origin/master

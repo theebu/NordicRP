@@ -67,16 +67,16 @@ class FSM
                                          "	_extra = 0;" \n
                                          "	if (playerSide isEqualTo west) then {" \n
                                          "		switch ((player getVariable ""rank"")) do {" \n
-                                         "                        case 2: {_extra = 1800;};" \n
-                                         "                        case 3: {_extra = 2100;};" \n
-                                         "                        case 4: {_extra = 2400;};" \n
-                                         "                        case 5: {_extra = 2700;};" \n
-                                         "                        case 6: {_extra = 2900;};" \n
-                                         "                        case 7: {_extra = 3200;};" \n
-                                         "                        case 8: {_extra = 3400;};" \n
-                                         "								case 9: {_extra = 3600;};" \n
-                                         "								case 10:{_extra = 4000;};" \n
-                                         "                        default {_extra = 1500;};" \n
+                                         "                        case 2: {_extra = 900;};" \n
+                                         "                        case 3: {_extra = 1050;};" \n
+                                         "                        case 4: {_extra = 1200;};" \n
+                                         "                        case 5: {_extra = 1350;};" \n
+                                         "                        case 6: {_extra = 1450;};" \n
+                                         "                        case 7: {_extra = 1600;};" \n
+                                         "                        case 8: {_extra = 1700;};" \n
+                                         "						  case 9: {_extra = 1800;};" \n
+                                         "						  case 10:{_extra = 2000;};" \n
+                                         "                        default {_extra = 750;};" \n
                                          "				};" \n
                                          "		life_atmbank = life_atmbank + (life_paycheck + _extra);" \n
                                          "		systemChat format [localize ""STR_FSM_ReceivedPay"",[(life_paycheck + _extra)] call life_fnc_numberText];" \n

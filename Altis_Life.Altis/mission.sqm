@@ -8,7 +8,11 @@ class EditorData
 	toggles=586;
 	class ItemIDProvider
 	{
+<<<<<<< HEAD
 		nextID=13551;
+=======
+		nextID=13535;
+>>>>>>> refs/remotes/origin/master
 	};
 	class MarkerIDProvider
 	{
@@ -16,6 +20,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
+<<<<<<< HEAD
 		nextID=29;
 	};
 	class Camera
@@ -24,6 +29,16 @@ class EditorData
 		dir[]={0.75543857,-0.60111547,0.26072863};
 		up[]={0.56822497,0.79916185,0.19611493};
 		aside[]={0.32625201,-2.514571e-008,-0.94528699};
+=======
+		nextID=27;
+	};
+	class Camera
+	{
+		pos[]={14959.46,21.700569,17026.588};
+		dir[]={-0.92127734,-0.25941443,0.28991947};
+		up[]={-0.24748664,0.96574908,0.0778808};
+		aside[]={0.30019122,3.2546814e-007,0.95392638};
+>>>>>>> refs/remotes/origin/master
 	};
 };
 binarizationWanted=0;
@@ -471,7 +486,11 @@ class Mission
 	};
 	class Entities
 	{
+<<<<<<< HEAD
 		items=4283;
+=======
+		items=4270;
+>>>>>>> refs/remotes/origin/master
 		class Item0
 		{
 			dataType="Object";
@@ -9770,8 +9789,13 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
+<<<<<<< HEAD
 				position[]={22857.287,3.1590283,16953.746};
 				angles[]={0,4.4907503,0};
+=======
+				position[]={22860.197,3.159025,16790.424};
+				angles[]={6.2818413,1.1967374,0.0039968039};
+>>>>>>> refs/remotes/origin/master
 			};
 			side="Empty";
 			flags=4;
@@ -9780,7 +9804,11 @@ class Mission
 			};
 			id=8261;
 			type="Land_ClutterCutter_large_F";
+<<<<<<< HEAD
 			atlOffset=-0.030971766;
+=======
+			atlOffset=0.00099992752;
+>>>>>>> refs/remotes/origin/master
 			class CustomAttributes
 			{
 				class Attribute0
@@ -42849,7 +42877,11 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
+<<<<<<< HEAD
 				position[]={22864.779,15.36894,16947.377};
+=======
+				position[]={22864.779,15.609053,16947.377};
+>>>>>>> refs/remotes/origin/master
 				angles[]={0,0.12993976,0};
 			};
 			side="Empty";
@@ -42859,7 +42891,11 @@ class Mission
 			};
 			id=9348;
 			type="Land_LampAirport_F";
+<<<<<<< HEAD
 			atlOffset=-0.24011183;
+=======
+			atlOffset=4.7683716e-007;
+>>>>>>> refs/remotes/origin/master
 			class CustomAttributes
 			{
 				class Attribute0
@@ -46512,7 +46548,11 @@ class Mission
 			position[]={3228.7754,2.0744476,12941.919};
 			name="cop_car_1";
 			type="Empty";
+<<<<<<< HEAD
 			angle=176.7099;
+=======
+			angle=176.70992;
+>>>>>>> refs/remotes/origin/master
 			id=9550;
 			atlOffset=0.025455952;
 		};
@@ -46579,7 +46619,11 @@ class Mission
 			position[]={14656.511,17.91,16780.85};
 			name="civ_air_1_2";
 			type="Empty";
+<<<<<<< HEAD
 			angle=124.6938;
+=======
+			angle=124.69382;
+>>>>>>> refs/remotes/origin/master
 			id=9557;
 		};
 		class Item977
@@ -129180,7 +129224,11 @@ class Mission
 			};
 			id=12184;
 			type="Land_InfoStand_V1_F";
+<<<<<<< HEAD
 			atlOffset=0.075603485;
+=======
+			atlOffset=0.075605392;
+>>>>>>> refs/remotes/origin/master
 		};
 		class Item3101
 		{
@@ -129658,13 +129706,18 @@ class Mission
 				angles[]={0.0002443461,3.6687868,0.00041887903};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				init="this enableSimulation false; this allowDamage false; this addAction[localize ""STR_MAR_General_Store"",life_fnc_weaponShopMenu,""genstore""];";
 			};
 			id=12212;
 			type="Land_InfoStand_V1_F";
+<<<<<<< HEAD
 			atlOffset=1.3150024;
+=======
+			atlOffset=0.00035858154;
+>>>>>>> refs/remotes/origin/master
 		};
 		class Item3128
 		{
@@ -171737,7 +171790,11 @@ class Mission
 			position[]={17536.854,-3.4043447e-014,13232.772};
 			name="jail_release";
 			type="Empty";
+<<<<<<< HEAD
 			angle=224.99989;
+=======
+			angle=224.99992;
+>>>>>>> refs/remotes/origin/master
 			id=13254;
 			atlOffset=-13.104167;
 		};
@@ -172106,7 +172163,11 @@ class Mission
 			};
 			id=13281;
 			type="Land_Shoot_House_Wall_F";
+<<<<<<< HEAD
 			atlOffset=0.135427;
+=======
+			atlOffset=0.13542676;
+>>>>>>> refs/remotes/origin/master
 		};
 		class Item4041
 		{
@@ -182372,7 +182433,11 @@ class Mission
 			};
 			id=13489;
 			type="Land_Mil_WallBig_4m_F";
+<<<<<<< HEAD
 			atlOffset=-0.34686613;
+=======
+			atlOffset=-0.34691238;
+>>>>>>> refs/remotes/origin/master
 			class CustomAttributes
 			{
 				class Attribute0
@@ -182962,7 +183027,11 @@ class Mission
 			};
 			id=13499;
 			type="Land_Mil_WallBig_4m_F";
+<<<<<<< HEAD
 			atlOffset=0.015389919;
+=======
+			atlOffset=0.015852451;
+>>>>>>> refs/remotes/origin/master
 			class CustomAttributes
 			{
 				class Attribute0
@@ -183139,7 +183208,11 @@ class Mission
 			};
 			id=13502;
 			type="Land_Mil_WallBig_4m_F";
+<<<<<<< HEAD
 			atlOffset=0.040785551;
+=======
+			atlOffset=0.040785789;
+>>>>>>> refs/remotes/origin/master
 			class CustomAttributes
 			{
 				class Attribute0
@@ -183617,7 +183690,11 @@ class Mission
 			fillName="FDiagonal";
 			a=18;
 			b=170;
+<<<<<<< HEAD
 			angle=51.74799;
+=======
+			angle=51.747997;
+>>>>>>> refs/remotes/origin/master
 			id=13515;
 			atlOffset=-3.1900001;
 		};
@@ -184186,6 +184263,7 @@ class Mission
 			id=13533;
 			atlOffset=0.67176247;
 		};
+<<<<<<< HEAD
 		class Item4270
 		{
 			dataType="Marker";
@@ -184936,5 +185014,7 @@ class Mission
 			id=13549;
 			atlOffset=0.0048172474;
 		};
+=======
+>>>>>>> refs/remotes/origin/master
 	};
 };
