@@ -15,11 +15,11 @@ _vars = [
     "life_impound_air"
 ];
 
-{
+/*{
     if (!isNil {(missionNamespace getVariable _x)}) exitWith {
         [profileName,getPlayerUID player,format["VariableSetBeforeInitialized_%1",_x]] remoteExecCall ["SPY_fnc_cookieJar",RSERV];
         [profileName,format["Variable set before client initialized: %1",_x]] remoteExecCall ["SPY_fnc_notifyAdmins",RCLIENT];
         sleep 0.5;
         failMission "SpyGlass";
     };
-} forEach _vars;
+} forEach _vars;*/
