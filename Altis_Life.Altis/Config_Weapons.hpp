@@ -22,10 +22,9 @@ class WeaponShops {
         license = "gun";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "hgun_Rook40_F", "", 6500, 500 },
-            { "hgun_Pistol_heavy_02_F", "", 9850, -1 },
-            { "hgun_ACPC2_F", "", 11500, -1 },
-            { "hgun_PDW2000_F", "", 20000, -1 }
+            { "hgun_Rook40_F", "", 27500, 500 },
+            { "hgun_Pistol_heavy_02_F", "", 38500, -1 },
+            { "hgun_ACPC2_F", "", 41500, -1 }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 25 },
@@ -69,10 +68,10 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "hgun_Rook40_F", "", 1500, 500 },
-            { "hgun_Pistol_heavy_02_F", "", 2500, -1 },
-            { "hgun_ACPC2_F", "", 4500, -1 },
-            { "hgun_PDW2000_F", "", 9500, -1 }
+            { "hgun_Rook40_F", "", 21500, 500 },
+            { "hgun_Pistol_heavy_02_F", "", 31000, -1 },
+            { "hgun_ACPC2_F", "", 35000, -1 },
+            { "hgun_PDW2000_F", "", 95500, -1 }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 25 },
