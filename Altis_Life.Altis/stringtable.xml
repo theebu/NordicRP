@@ -802,6 +802,9 @@
             <Portuguese>A picareta é necessária</Portuguese>
             <Polish>Wymagana jest kilof</Polish>
         </Key>
+		<Key ID="STR_NOTF_ATM">
+            <Original>ATM</Original>
+        </Key>
         <Key ID="STR_NOTF_isrestrained">
             <Original>You are restrained</Original>
             <Czech>Ty jsou omezeny</Czech>
