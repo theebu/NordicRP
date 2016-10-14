@@ -161,7 +161,7 @@ if ((_vInfo select 1) isEqualTo "cop" && ((_vInfo select 2)) in ["C_Offroad_01_b
     [_vehicle,"cop_offroad",true] remoteExecCall ["life_fnc_vehicleAnimate",_unit];
 };
 
-if ((_vInfo select 1) isEqualTo "med" && ((_vInfo select 2)) in ["C_Van_01_box_F","C_Offroad_01_Red_F","B_Heli_Light_01_F","I_Heli_light_03_unarmed_F","C_Heli_light_01_red_F"]) then {
+if ((_vInfo select 1) isEqualTo "med" && ((_vInfo select 2)) in ["C_Van_01_box_F","C_Offroad_01_red_F","B_Heli_Light_01_F","I_Heli_light_03_unarmed_F","C_Heli_light_01_red_F"]) then {
     [_vehicle,"med_offroad",true] remoteExecCall ["life_fnc_vehicleAnimate",_unit];
 };
 
