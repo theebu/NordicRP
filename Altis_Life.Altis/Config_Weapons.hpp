@@ -68,13 +68,10 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-<<<<<<< HEAD
             { "hgun_Rook40_F", "", 21500, 500 },
             { "hgun_Pistol_heavy_02_F", "", 31000, -1 },
-=======
             { "hgun_Rook40_F", "", 20500, 500 },
             { "hgun_Pistol_heavy_02_F", "", 31500, -1 },
->>>>>>> refs/remotes/origin/master
             { "hgun_ACPC2_F", "", 35000, -1 },
             { "hgun_PDW2000_F", "", 95500, -1 }
         };
@@ -143,24 +140,15 @@ class WeaponShops {
         items[] = {
             { "hgun_P07_snds_F", "Stun Pistol", 0, 0 },
             { "hgun_P07_F", "", 0, 0 },
-			{ "SMG_05_F", "", 0, 0 },
-			{ "arifle_Mk20_plain_F", "", 0, 0 },
-            { "HandGrenade_Stone", "Flashbang", 0, 0 },
-			{ "SmokeShell", "", 0, 0 },
-            { "SmokeShellBlue", "", 0, 0 },
             { "Binocular", "", 0, 0 },
             { "ItemGPS", "", 0, 0 },
             { "FirstAidKit", "", 0, 0 },
             { "NVGoggles_OPFOR", "", 0, 0 }
         };
         mags[] = {
-            { "16Rnd_9x21_Mag", "Taser Cartridge", 0 },
-			{ "30Rnd_9x21_Mag_SMG_02", "", 0 },
-			{ "30Rnd_556x45_Stanag", "", 0 }
+            { "16Rnd_9x21_Mag", "Taser Cartridge", 0 }
         };
         accs[] = {
-			{ "optic_Hamr", "", 0, 0 },
-            { "optic_Aco", "", 0, 0 },
             { "muzzle_snds_L", "", 0 },
 	        { "acc_flashlight", "", 0, 0 }
         };
@@ -175,10 +163,6 @@ class WeaponShops {
             { "hgun_P07_snds_F", "Stun Pistol", 0, 0 },
             { "hgun_P07_F", "", 0, 0 },
 			{ "SMG_05_F", "", 0, 0 },
-			{ "arifle_Mk20_plain_F", "", 0, 0 },
-            { "HandGrenade_Stone", "Flashbang", 0, 0 },
-			{ "SmokeShell", "", 0, 0 },
-            { "SmokeShellBlue", "", 0, 0 },
             { "Binocular", "", 0, 0 },
             { "ItemGPS", "", 0, 0 },
             { "FirstAidKit", "", 0, 0 },
@@ -186,11 +170,9 @@ class WeaponShops {
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "Taser Cartridge", 0 },
-			{ "30Rnd_9x21_Mag_SMG_02", "", 0 },
-			{ "30Rnd_556x45_Stanag", "", 0 }
+			{ "30Rnd_9x21_Mag_SMG_02", "", 0 }
         };
         accs[] = {
-			{ "optic_Hamr", "", 0, 0 },
             { "optic_Aco", "", 0, 0 },
             { "muzzle_snds_L", "", 0 },
 	        { "acc_flashlight", "", 0, 0 }
@@ -206,11 +188,6 @@ class WeaponShops {
             { "hgun_P07_snds_F", "Stun Pistol", 0, 0 },
             { "hgun_P07_F", "", 0, 0 },
 			{ "SMG_05_F", "", 0, 0 },
-			{ "arifle_Mk20_plain_F", "", 0, 0 },
-			{ "arifle_SPAR_01_blk_F", "", 0, 0 },
-            { "HandGrenade_Stone", "Flashbang", 0, 0 },
-			{ "SmokeShell", "", 0, 0 },
-            { "SmokeShellBlue", "", 0, 0 },
             { "Binocular", "", 0, 0 },
             { "ItemGPS", "", 0, 0 },
             { "FirstAidKit", "", 0, 0 },
@@ -218,21 +195,17 @@ class WeaponShops {
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "Taser Cartridge", 0 },
-			{ "30Rnd_9x21_Mag_SMG_02", "", 0 },
-			{ "30Rnd_556x45_Stanag", "", 0 }
+			{ "30Rnd_9x21_Mag_SMG_02", "", 0 }
         };
         accs[] = {
-			{ "optic_Hamr", "", 0, 0 },
             { "optic_Aco", "", 0, 0 },
-            { "optic_DMS", "", 0, 0 },
-            { "optic_AMS", "", 0, 0 },
             { "muzzle_snds_L", "", 0 },
 		    { "acc_flashlight", "", 0, 0 }
         };
     };
 
     class cop_shop_4 {
-        name = "Polisintendent";
+        name = "Polisintendent 1";
         side = "cop";
         license = "";
         level[] = { "life_coplevel", "SCALAR", 4, "You must be a higher Rank!" };
@@ -240,12 +213,6 @@ class WeaponShops {
             { "hgun_P07_snds_F", "Stun Pistol", 0, 0 },
             { "hgun_P07_F", "", 0, 0 },
 			{ "SMG_05_F", "", 0, 0 },
-			{ "arifle_Mk20_plain_F", "", 0, 0 },
-			{ "arifle_SPAR_01_blk_F", "", 0, 0 },
-			{ "arifle_SPAR_03_blk_F", "", 0, 0 },
-            { "HandGrenade_Stone", "Flashbang", 0, 0 },
-			{ "SmokeShell", "", 0, 0 },
-            { "SmokeShellBlue", "", 0, 0 },
             { "Binocular", "", 0, 0 },
             { "ItemGPS", "", 0, 0 },
             { "FirstAidKit", "", 0, 0 },
@@ -253,21 +220,16 @@ class WeaponShops {
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "Taser Cartridge", 0 },
-			{ "30Rnd_9x21_Mag_SMG_02", "", 0 },
-			{ "30Rnd_556x45_Stanag", "", 0 },
-			{ "20Rnd_762x51_Mag", "", 0 }
+			{ "30Rnd_9x21_Mag_SMG_02", "", 0 }
         };
         accs[] = {
-			{ "optic_Hamr", "", 0, 0 },
             { "optic_Aco", "", 0, 0 },
-            { "optic_DMS", "", 0, 0 },
-            { "optic_AMS", "", 0, 0 },
             { "muzzle_snds_L", "", 0 },
 		    { "acc_flashlight", "", 0, 0 }
         };
     };
-	    class cop_shop_5 {
-        name = "Polismästare";
+	class cop_shop_5 {
+        name = "Polisintendent 2";
         side = "cop";
         license = "";
         level[] = { "life_coplevel", "SCALAR", 5, "You must be a higher Rank!" };
@@ -275,12 +237,6 @@ class WeaponShops {
             { "hgun_P07_snds_F", "Stun Pistol", 0, 0 },
             { "hgun_P07_F", "", 0, 0 },
 			{ "SMG_05_F", "", 0, 0 },
-			{ "arifle_Mk20_plain_F", "", 0, 0 },
-			{ "arifle_SPAR_01_blk_F", "", 0, 0 },
-			{ "arifle_SPAR_03_blk_F", "", 0, 0 },
-            { "HandGrenade_Stone", "Flashbang", 0, 0 },
-			{ "SmokeShell", "", 0, 0 },
-            { "SmokeShellBlue", "", 0, 0 },
             { "Binocular", "", 0, 0 },
             { "ItemGPS", "", 0, 0 },
             { "FirstAidKit", "", 0, 0 },
@@ -288,21 +244,16 @@ class WeaponShops {
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "Taser Cartridge", 0 },
-			{ "30Rnd_9x21_Mag_SMG_02", "", 0 },
-			{ "30Rnd_556x45_Stanag", "", 0 },
-			{ "20Rnd_762x51_Mag", "", 0 }
+			{ "30Rnd_9x21_Mag_SMG_02", "", 0 }
         };
         accs[] = {
-			{ "optic_Hamr", "", 0, 0 },
             { "optic_Aco", "", 0, 0 },
-            { "optic_DMS", "", 0, 0 },
-            { "optic_AMS", "", 0, 0 },
             { "muzzle_snds_L", "", 0 },
 		    { "acc_flashlight", "", 0, 0 }
         };
     };
-	    class cop_shop_6 {
-        name = "Biträdande Polisdirektör";
+	class cop_shop_6 {
+        name = "Polismästare";
         side = "cop";
         license = "";
         level[] = { "life_coplevel", "SCALAR", 6, "You must be a higher Rank!" };
@@ -310,12 +261,6 @@ class WeaponShops {
             { "hgun_P07_snds_F", "Stun Pistol", 0, 0 },
             { "hgun_P07_F", "", 0, 0 },
 			{ "SMG_05_F", "", 0, 0 },
-			{ "arifle_Mk20_plain_F", "", 0, 0 },
-			{ "arifle_SPAR_01_blk_F", "", 0, 0 },
-			{ "arifle_SPAR_03_blk_F", "", 0, 0 },
-            { "HandGrenade_Stone", "Flashbang", 0, 0 },
-			{ "SmokeShell", "", 0, 0 },
-            { "SmokeShellBlue", "", 0, 0 },
             { "Binocular", "", 0, 0 },
             { "ItemGPS", "", 0, 0 },
             { "FirstAidKit", "", 0, 0 },
@@ -324,21 +269,16 @@ class WeaponShops {
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "Taser Cartridge", 0 },
-			{ "30Rnd_9x21_Mag_SMG_02", "", 0 },
-			{ "30Rnd_556x45_Stanag", "", 0 },
-			{ "20Rnd_762x51_Mag", "", 0 }
+			{ "30Rnd_9x21_Mag_SMG_02", "", 0 }
         };
         accs[] = {
-			{ "optic_Hamr", "", 0, 0 },
             { "optic_Aco", "", 0, 0 },
-            { "optic_DMS", "", 0, 0 },
-            { "optic_AMS", "", 0, 0 },
             { "muzzle_snds_L", "", 0 },
 			{ "acc_flashlight", "", 0, 0 }	
         };
     };
-	    class cop_shop_7 {
-        name = "Polisdirektör";
+	class cop_shop_7 {
+        name = "Polismästare";
         side = "cop";
         license = "";
         level[] = { "life_coplevel", "SCALAR", 7, "You must be a higher Rank!" };
@@ -346,12 +286,6 @@ class WeaponShops {
             { "hgun_P07_snds_F", "Stun Pistol", 0, 0 },
             { "hgun_P07_F", "", 0, 0 },
 			{ "SMG_05_F", "", 0, 0 },
-			{ "arifle_Mk20_plain_F", "", 0, 0 },
-			{ "arifle_SPAR_01_blk_F", "", 0, 0 },
-			{ "arifle_SPAR_03_blk_F", "", 0, 0 },
-            { "HandGrenade_Stone", "Flashbang", 0, 0 },
-			{ "SmokeShell", "", 0, 0 },
-            { "SmokeShellBlue", "", 0, 0 },
             { "Binocular", "", 0, 0 },
             { "ItemGPS", "", 0, 0 },
             { "FirstAidKit", "", 0, 0 },
@@ -360,43 +294,105 @@ class WeaponShops {
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "Taser Cartridge", 0 },
-			{ "30Rnd_9x21_Mag_SMG_02", "", 0 },
-			{ "30Rnd_556x45_Stanag", "", 0 },
-			{ "20Rnd_762x51_Mag", "", 0 }
+			{ "30Rnd_9x21_Mag_SMG_02", "", 0 }
         };
         accs[] = {
-			{ "optic_Hamr", "", 0, 0 },
             { "optic_Aco", "", 0, 0 },
-            { "optic_DMS", "", 0, 0 },
-            { "optic_AMS", "", 0, 0 },
             { "muzzle_snds_L", "", 0 },
 			{ "acc_flashlight", "", 0, 0 }
         };
     };
-	    class cop_shop_8 {
-        name = "Rikspolischef";
+	
+	class cop_shop_8 {
+        name = "Biträdande polisdirektör";
         side = "cop";
-        license = "";
+        license = "nis";
         level[] = { "life_coplevel", "SCALAR", 8, "You must be a higher Rank!" };
         items[] = {
             { "hgun_P07_snds_F", "Stun Pistol", 0, 0 },
             { "hgun_P07_F", "", 0, 0 },
 			{ "SMG_05_F", "", 0, 0 },
-			{ "arifle_Mk20_plain_F", "", 0, 0 },
-			{ "arifle_SPAR_01_blk_F", "", 0, 0 },
-			{ "arifle_SPAR_03_blk_F", "", 0, 0 },
-            { "HandGrenade_Stone", "Flashbang", 0, 0 },
-			{ "SmokeShell", "", 0, 0 },
-            { "SmokeShellBlue", "", 0, 0 },
             { "Binocular", "", 0, 0 },
             { "ItemGPS", "", 0, 0 },
             { "FirstAidKit", "", 0, 0 },
-            { "NVGoggles_OPFOR", "", 0, 0 },
-            { "acc_flashlight", "", 0, 0 }			
+            { "NVGoggles_OPFOR", "", 0, 0 }		
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "Taser Cartridge", 0 },
-			{ "30Rnd_9x21_Mag_SMG_02", "", 0 },
+			{ "30Rnd_9x21_Mag_SMG_02", "", 0 }
+        };
+        accs[] = {
+            { "optic_Aco", "", 0, 0 },
+            { "muzzle_snds_L", "", 0 },
+			{ "acc_flashlight", "", 0, 0 }
+        };
+    };
+	
+	class cop_shop_9 {
+        name = "Polisdirektör";
+        side = "cop";
+        license = "nis";
+        level[] = { "life_coplevel", "SCALAR", 9, "You must be a higher Rank!" };
+        items[] = {
+            { "hgun_P07_snds_F", "Stun Pistol", 0, 0 },
+            { "hgun_P07_F", "", 0, 0 },
+			{ "SMG_05_F", "", 0, 0 },
+            { "Binocular", "", 0, 0 },
+            { "ItemGPS", "", 0, 0 },
+            { "FirstAidKit", "", 0, 0 },
+            { "NVGoggles_OPFOR", "", 0, 0 }		
+        };
+        mags[] = {
+            { "16Rnd_9x21_Mag", "Taser Cartridge", 0 },
+			{ "30Rnd_9x21_Mag_SMG_02", "", 0 }
+        };
+        accs[] = {
+            { "optic_Aco", "", 0, 0 },
+            { "muzzle_snds_L", "", 0 },
+			{ "acc_flashlight", "", 0, 0 }
+        };
+    };
+	
+	class cop_shop_10 {
+        name = "Rikspolischef";
+        side = "cop";
+        license = "nis";
+        level[] = { "life_coplevel", "SCALAR", 10, "You must be a higher Rank!" };
+        items[] = {
+            { "hgun_P07_snds_F", "Stun Pistol", 0, 0 },
+            { "hgun_P07_F", "", 0, 0 },
+			{ "SMG_05_F", "", 0, 0 },
+            { "Binocular", "", 0, 0 },
+            { "ItemGPS", "", 0, 0 },
+            { "FirstAidKit", "", 0, 0 },
+            { "NVGoggles_OPFOR", "", 0, 0 }		
+        };
+        mags[] = {
+            { "16Rnd_9x21_Mag", "Taser Cartridge", 0 },
+			{ "30Rnd_9x21_Mag_SMG_02", "", 0 }
+        };
+        accs[] = {
+            { "optic_Aco", "", 0, 0 },
+            { "muzzle_snds_L", "", 0 },
+			{ "acc_flashlight", "", 0, 0 }
+        };
+    };
+
+
+	class cop_nis_shop {
+        name = "NIS";
+        side = "cop";
+        license = "";
+        level[] = { "license_cop_nis", "BOOL", 1, "You must be NIS!" };
+        items[] = {
+			{ "arifle_Mk20_plain_F", "", 0, 0 },
+			{ "arifle_SPAR_01_blk_F", "", 0, 0 },
+			{ "arifle_SPAR_03_blk_F", "", 0, 0 },
+			{ "SmokeShell", "", 0, 0 },
+            { "SmokeShellBlue", "", 0, 0 },
+			{ "HandGrenade_Stone", "Flashbang", 0, 0 }
+		};
+		mags[] = {
 			{ "30Rnd_556x45_Stanag", "", 0 },
 			{ "20Rnd_762x51_Mag", "", 0 }
         };
@@ -404,10 +400,9 @@ class WeaponShops {
 			{ "optic_Hamr", "", 0, 0 },
             { "optic_Aco", "", 0, 0 },
             { "optic_DMS", "", 0, 0 },
-            { "optic_AMS", "", 0, 0 },
-            { "muzzle_snds_L", "", 0 }
+            { "optic_AMS", "", 0, 0 }
         };
-    };
+	};
 
 
     //Medic Shops
