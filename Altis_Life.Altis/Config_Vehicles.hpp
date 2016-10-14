@@ -207,6 +207,10 @@ class LifeCfgVehicles {
             { "Polis", "cop", {
                 "textures\Police\hunterbase.jpg",
                 "textures\Police\hunteradds.jpg"
+            } },
+			{ "Medic", "med", {
+                "textures\Medic\MedicHunter1.jpg",
+                "textures\Medic\MedicHunter2.jpg"
             } }
         };
     };

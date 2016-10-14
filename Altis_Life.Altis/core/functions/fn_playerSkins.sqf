@@ -69,11 +69,28 @@ switch (playerSide) do {
             _skinName = "textures\police\Pilot\polisPIlot.paa";
             player setObjectTextureGlobal [0, _skinName];
         };
+		
+		if ((backpack player) in ["B_TacticalPack_blk","B_AssaultPack_blk","B_FieldPack_blk"]) then
+		{
+			(backpackContainer player) setObjectTextureGlobal [0,""];
+		};
     };
 
     case independent: {
-        if (uniform player isEqualTo "U_Rangemaster") then {
-            player setObjectTextureGlobal [0, "textures\medic_uniform.jpg"];
+		if (uniform player isEqualTo "U_Rangemaster") then {
+            player setObjectTextureGlobal [0, "textures\Medic\medicuniform.jpg"]; 
+            if (FETCH_CONST(life_mediclevel) == 1) then {
+                player setObjectTextureGlobal [0, "textures\Medic\medicTrainee.jpg"];
+            };
         };
+
+		if (uniform player isEqualTo "U_O_OfficerUniform_ocamo") then {
+            player setObjectTextureGlobal [0, "textures\Medic\medicjacket.jpg"];
+        };
+		
+		if (uniform player isEqualTo "U_C_Scientist") then {
+            player setObjectTextureGlobal [0, "textures\Medic\medicheliuniform.jpg"];
+        };
+		
     };
 };

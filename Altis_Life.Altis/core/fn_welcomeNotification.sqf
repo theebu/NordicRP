@@ -25,7 +25,7 @@ _textSpoiler = _display displayCtrl 1101;
 _text2 = _display displayCtrl 1102;
 
 _message = "";
-_message = _message + "<t align='center' size='8' shadow='0'><img image='textures\armalife.jpg' /></t><br /><br />";
+_message = _message + "<t align='center' size='8' shadow='0'><img image='textures\nordic.jpg' /></t><br /><br />";
 _message = _message + "Useful Links (click on the links to open your browser)<br /><br />";
 _message = _message + " <a href='http://www.nordicrp.net' color='#56BDD6'>NordicRP</a> -- Our Website, check it out for the latest news, updates, and rules.<br /><br />";
 _message = _message + "TeamSpeak 3 Address: ts.nordicrp.net  <br /><br />";

@@ -111,6 +111,16 @@ switch (_type) do
         [false, "white", [0.85, 1.475, -0.75]] call _attach;
     };
 	
+	case "C_Van_01_box_F":
+    {
+        [false, "blue", [-0.85, -0.9, 0.6]] call _attach;
+        [true, "blue", [0.85, -0.9, 0.6]] call _attach;
+        [true, "blue", [-0.93, -2.8, 0.6]] call _attach;
+        [false, "blue", [0.93, -2.8, 0.6]] call _attach;
+        [true, "white", [-0.85, 1.475, -0.75]] call _attach;
+        [false, "white", [0.85, 1.475, -0.75]] call _attach;
+    };
+	
 	case "B_Quadbike_01_F":
 	{
 	    [true,"blue", [-0.07, 1, -0.7]] call _attach;

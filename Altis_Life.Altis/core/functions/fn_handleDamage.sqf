@@ -69,7 +69,7 @@ if ((vehicle _unit) isKindOf "Car" && (isNull _source || _source isEqualTo _unit
 };
 
 //boxTruck
-if ((vehicle _unit) == "C_Van_01_box_F" && (isNull _source || _source isEqualTo _unit)) then
+if ((vehicle _unit) isKindOf "C_Van_01_box_F" && (isNull _source || _source isEqualTo _unit)) then
 {
 	_damage = (getDammage (vehicle _unit)) / 2;
 	

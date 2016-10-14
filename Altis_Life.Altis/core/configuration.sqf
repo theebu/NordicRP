@@ -11,6 +11,8 @@
 ****** Backend Variables *****
 *****************************
 */
+life_nlrtimer_running = false;
+life_nlrtimer_stop = false;
 life_yelp_active = false;
 life_bus_cost = 0;
 life_seatbelt = false;
