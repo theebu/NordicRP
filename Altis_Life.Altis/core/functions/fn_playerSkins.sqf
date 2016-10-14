@@ -69,6 +69,11 @@ switch (playerSide) do {
             _skinName = "textures\police\Pilot\polisPIlot.paa";
             player setObjectTextureGlobal [0, _skinName];
         };
+		
+		if ((backpack player) in ["B_TacticalPack_blk","B_AssaultPack_blk","B_FieldPack_blk"]) then
+		{
+			(backpack player) setObjectTextureGlobal [0,""];
+		};
     };
 
     case independent: {

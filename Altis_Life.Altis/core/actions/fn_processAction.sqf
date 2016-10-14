@@ -78,7 +78,7 @@ if (_exit) exitWith {hint localize "STR_Process_Weight"; life_is_processing = fa
 
 //Setup our progress bar.
 disableSerialization;
-5 cutRsc ["life_progress","PLAIN"];
+13 cutRsc ["life_progress","PLAIN"];
 _ui = uiNamespace getVariable "life_progress";
 _progress = _ui displayCtrl 38201;
 _pgText = _ui displayCtrl 38202;
@@ -133,7 +133,7 @@ if (_hasLicense) then {
         [true,(_x select 0),((_x select 1)*(_minimumConversions))] call life_fnc_handleInv;
     } count _newItem;
 
-    5 cutText ["","PLAIN"];
+    13 cutText ["","PLAIN"];
     if (_minimumConversions isEqualTo (_totalConversions call BIS_fnc_lowestNum)) then {hint localize "STR_NOTF_ItemProcess";} else {hint localize "STR_Process_Partial";};
     CASH = CASH - _cost;
     life_is_processing = false; life_action_inUse = false;

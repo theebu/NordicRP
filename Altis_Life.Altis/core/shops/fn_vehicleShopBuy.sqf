@@ -104,7 +104,7 @@ _vehicle lock 2;
 [_vehicle] call life_fnc_clearVehicleAmmo;
 [_vehicle,"trunk_in_use",false,true] remoteExecCall ["TON_fnc_setObjVar",RSERV];
 [_vehicle,"vehicle_info_owners",[[getPlayerUID player,profileName]],true] remoteExecCall ["TON_fnc_setObjVar",RSERV];
-_vehicle disableTIEquipment true; //No Thermals.. They're cheap but addictive.
+
 
 //Side Specific actions.
 switch (playerSide) do {
@@ -115,9 +115,11 @@ switch (playerSide) do {
         if ((life_veh_shop select 2) isEqualTo "civ" && {_className == "B_Heli_Light_01_F"}) then {
             [_vehicle,"civ_littlebird",true] spawn life_fnc_vehicleAnimate;
         };
+		_vehicle disableTIEquipment true; //No Thermals.. They're cheap but addictive.
     };
     case independent: {
         [_vehicle,"med_offroad",true] spawn life_fnc_vehicleAnimate;
+		_vehicle disableTIEquipment true; //No Thermals.. They're cheap but addictive.
     };
 };
 
