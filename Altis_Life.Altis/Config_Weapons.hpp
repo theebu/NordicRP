@@ -140,13 +140,15 @@ class WeaponShops {
         items[] = {
             { "hgun_P07_snds_F", "Stun Pistol", 0, 0 },
             { "hgun_P07_F", "", 0, 0 },
+			{ "SMG_05_F", "", 0, 0 },			
             { "Binocular", "", 0, 0 },
             { "ItemGPS", "", 0, 0 },
             { "FirstAidKit", "", 0, 0 },
             { "NVGoggles_OPFOR", "", 0, 0 }
         };
         mags[] = {
-            { "16Rnd_9x21_Mag", "Taser Cartridge", 0 }
+            { "16Rnd_9x21_Mag", "Taser Cartridge", 0 },
+			{ "30Rnd_9x21_Mag_SMG_02", "", 0 }				
         };
         accs[] = {
             { "muzzle_snds_L", "", 0 },
@@ -163,6 +165,9 @@ class WeaponShops {
             { "hgun_P07_snds_F", "Stun Pistol", 0, 0 },
             { "hgun_P07_F", "", 0, 0 },
 			{ "SMG_05_F", "", 0, 0 },
+			{ "arifle_Mk20_plain_F", "", 0, 0 },
+			{ "arifle_SPAR_01_blk_F", "", 0, 0 },	
+			{ "SmokeShell", "", 0, 0 },			
             { "Binocular", "", 0, 0 },
             { "ItemGPS", "", 0, 0 },
             { "FirstAidKit", "", 0, 0 },
@@ -170,10 +175,12 @@ class WeaponShops {
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "Taser Cartridge", 0 },
-			{ "30Rnd_9x21_Mag_SMG_02", "", 0 }
+			{ "30Rnd_9x21_Mag_SMG_02", "", 0 },
+			{ "30Rnd_556x45_Stanag", "", 0 }			
         };
         accs[] = {
             { "optic_Aco", "", 0, 0 },
+			{ "optic_Hamr", "", 0, 0 },
             { "muzzle_snds_L", "", 0 },
 	        { "acc_flashlight", "", 0, 0 }
         };
@@ -188,6 +195,9 @@ class WeaponShops {
             { "hgun_P07_snds_F", "Stun Pistol", 0, 0 },
             { "hgun_P07_F", "", 0, 0 },
 			{ "SMG_05_F", "", 0, 0 },
+			{ "arifle_Mk20_plain_F", "", 0, 0 },
+			{ "arifle_SPAR_01_blk_F", "", 0, 0 },
+			{ "SmokeShell", "", 0, 0 },
             { "Binocular", "", 0, 0 },
             { "ItemGPS", "", 0, 0 },
             { "FirstAidKit", "", 0, 0 },
@@ -195,10 +205,12 @@ class WeaponShops {
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "Taser Cartridge", 0 },
-			{ "30Rnd_9x21_Mag_SMG_02", "", 0 }
+			{ "30Rnd_9x21_Mag_SMG_02", "", 0 },
+			{ "30Rnd_556x45_Stanag", "", 0 }					
         };
         accs[] = {
             { "optic_Aco", "", 0, 0 },
+			{ "optic_Hamr", "", 0, 0 },
             { "muzzle_snds_L", "", 0 },
 		    { "acc_flashlight", "", 0, 0 }
         };
@@ -213,6 +225,9 @@ class WeaponShops {
             { "hgun_P07_snds_F", "Stun Pistol", 0, 0 },
             { "hgun_P07_F", "", 0, 0 },
 			{ "SMG_05_F", "", 0, 0 },
+			{ "arifle_Mk20_plain_F", "", 0, 0 },	
+			{ "arifle_SPAR_01_blk_F", "", 0, 0 },		
+			{ "SmokeShell", "", 0, 0 },			
             { "Binocular", "", 0, 0 },
             { "ItemGPS", "", 0, 0 },
             { "FirstAidKit", "", 0, 0 },
@@ -220,10 +235,12 @@ class WeaponShops {
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "Taser Cartridge", 0 },
+			{ "30Rnd_556x45_Stanag", "", 0 },				
 			{ "30Rnd_9x21_Mag_SMG_02", "", 0 }
         };
         accs[] = {
             { "optic_Aco", "", 0, 0 },
+			{ "optic_Hamr", "", 0, 0 },
             { "muzzle_snds_L", "", 0 },
 		    { "acc_flashlight", "", 0, 0 }
         };
@@ -237,6 +254,9 @@ class WeaponShops {
             { "hgun_P07_snds_F", "Stun Pistol", 0, 0 },
             { "hgun_P07_F", "", 0, 0 },
 			{ "SMG_05_F", "", 0, 0 },
+			{ "arifle_Mk20_plain_F", "", 0, 0 },	
+			{ "arifle_SPAR_01_blk_F", "", 0, 0 },		
+			{ "SmokeShell", "", 0, 0 },			
             { "Binocular", "", 0, 0 },
             { "ItemGPS", "", 0, 0 },
             { "FirstAidKit", "", 0, 0 },
@@ -244,10 +264,12 @@ class WeaponShops {
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "Taser Cartridge", 0 },
+			{ "30Rnd_556x45_Stanag", "", 0 },			
 			{ "30Rnd_9x21_Mag_SMG_02", "", 0 }
         };
         accs[] = {
             { "optic_Aco", "", 0, 0 },
+			{ "optic_Hamr", "", 0, 0 },
             { "muzzle_snds_L", "", 0 },
 		    { "acc_flashlight", "", 0, 0 }
         };
@@ -261,6 +283,9 @@ class WeaponShops {
             { "hgun_P07_snds_F", "Stun Pistol", 0, 0 },
             { "hgun_P07_F", "", 0, 0 },
 			{ "SMG_05_F", "", 0, 0 },
+			{ "arifle_Mk20_plain_F", "", 0, 0 },	
+			{ "arifle_SPAR_01_blk_F", "", 0, 0 },			
+			{ "SmokeShell", "", 0, 0 },
             { "Binocular", "", 0, 0 },
             { "ItemGPS", "", 0, 0 },
             { "FirstAidKit", "", 0, 0 },
@@ -269,10 +294,12 @@ class WeaponShops {
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "Taser Cartridge", 0 },
+			{ "30Rnd_556x45_Stanag", "", 0 },			
 			{ "30Rnd_9x21_Mag_SMG_02", "", 0 }
         };
         accs[] = {
             { "optic_Aco", "", 0, 0 },
+			{ "optic_Hamr", "", 0, 0 },
             { "muzzle_snds_L", "", 0 },
 			{ "acc_flashlight", "", 0, 0 }	
         };
@@ -286,6 +313,9 @@ class WeaponShops {
             { "hgun_P07_snds_F", "Stun Pistol", 0, 0 },
             { "hgun_P07_F", "", 0, 0 },
 			{ "SMG_05_F", "", 0, 0 },
+			{ "arifle_Mk20_plain_F", "", 0, 0 },			
+			{ "arifle_SPAR_01_blk_F", "", 0, 0 },
+			{ "SmokeShell", "", 0, 0 },
             { "Binocular", "", 0, 0 },
             { "ItemGPS", "", 0, 0 },
             { "FirstAidKit", "", 0, 0 },
@@ -294,10 +324,12 @@ class WeaponShops {
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "Taser Cartridge", 0 },
+			{ "30Rnd_556x45_Stanag", "", 0 },			
 			{ "30Rnd_9x21_Mag_SMG_02", "", 0 }
         };
         accs[] = {
             { "optic_Aco", "", 0, 0 },
+			{ "optic_Hamr", "", 0, 0 },
             { "muzzle_snds_L", "", 0 },
 			{ "acc_flashlight", "", 0, 0 }
         };
@@ -312,6 +344,9 @@ class WeaponShops {
             { "hgun_P07_snds_F", "Stun Pistol", 0, 0 },
             { "hgun_P07_F", "", 0, 0 },
 			{ "SMG_05_F", "", 0, 0 },
+			{ "arifle_Mk20_plain_F", "", 0, 0 },	
+			{ "arifle_SPAR_01_blk_F", "", 0, 0 },	
+			{ "SmokeShell", "", 0, 0 },			
             { "Binocular", "", 0, 0 },
             { "ItemGPS", "", 0, 0 },
             { "FirstAidKit", "", 0, 0 },
@@ -319,10 +354,12 @@ class WeaponShops {
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "Taser Cartridge", 0 },
+			{ "30Rnd_556x45_Stanag", "", 0 },			
 			{ "30Rnd_9x21_Mag_SMG_02", "", 0 }
         };
         accs[] = {
             { "optic_Aco", "", 0, 0 },
+			{ "optic_Hamr", "", 0, 0 },
             { "muzzle_snds_L", "", 0 },
 			{ "acc_flashlight", "", 0, 0 }
         };
@@ -337,6 +374,9 @@ class WeaponShops {
             { "hgun_P07_snds_F", "Stun Pistol", 0, 0 },
             { "hgun_P07_F", "", 0, 0 },
 			{ "SMG_05_F", "", 0, 0 },
+			{ "arifle_Mk20_plain_F", "", 0, 0 },	
+			{ "arifle_SPAR_01_blk_F", "", 0, 0 },		
+			{ "SmokeShell", "", 0, 0 },			
             { "Binocular", "", 0, 0 },
             { "ItemGPS", "", 0, 0 },
             { "FirstAidKit", "", 0, 0 },
@@ -344,10 +384,12 @@ class WeaponShops {
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "Taser Cartridge", 0 },
+			{ "30Rnd_556x45_Stanag", "", 0 },			
 			{ "30Rnd_9x21_Mag_SMG_02", "", 0 }
         };
         accs[] = {
             { "optic_Aco", "", 0, 0 },
+			{ "optic_Hamr", "", 0, 0 },
             { "muzzle_snds_L", "", 0 },
 			{ "acc_flashlight", "", 0, 0 }
         };
@@ -362,6 +404,9 @@ class WeaponShops {
             { "hgun_P07_snds_F", "Stun Pistol", 0, 0 },
             { "hgun_P07_F", "", 0, 0 },
 			{ "SMG_05_F", "", 0, 0 },
+			{ "arifle_Mk20_plain_F", "", 0, 0 },	
+			{ "arifle_SPAR_01_blk_F", "", 0, 0 },		
+			{ "SmokeShell", "", 0, 0 },			
             { "Binocular", "", 0, 0 },
             { "ItemGPS", "", 0, 0 },
             { "FirstAidKit", "", 0, 0 },
@@ -369,10 +414,12 @@ class WeaponShops {
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "Taser Cartridge", 0 },
+			{ "30Rnd_556x45_Stanag", "", 0 },			
 			{ "30Rnd_9x21_Mag_SMG_02", "", 0 }
         };
         accs[] = {
             { "optic_Aco", "", 0, 0 },
+			{ "optic_Hamr", "", 0, 0 },
             { "muzzle_snds_L", "", 0 },
 			{ "acc_flashlight", "", 0, 0 }
         };
