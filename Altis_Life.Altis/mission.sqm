@@ -353,9 +353,9 @@ randomSeed=3470096;
 class ScenarioData
 {
 	author="Tonic";
-	overViewPicture="textures\armalife.jpg";
-	overViewPictureLocked="textures\armalife.jpg";
-	loadScreen="textures\armalife.jpg";
+	overViewPicture="textures\nordic.jpg";
+	overViewPictureLocked="textures\nordic.jpg";
+	loadScreen="textures\nordic.jpg";
 	saving=0;
 	respawnDialog=0;
 	disabledAI=1;

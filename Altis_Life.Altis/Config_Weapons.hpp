@@ -187,7 +187,7 @@ class WeaponShops {
         items[] = {
             { "hgun_P07_snds_F", "Stun Pistol", 0, 0 },
             { "hgun_P07_F", "", 0, 0 },
-			{ "SMG_05_F", "", 0, 0 }
+			{ "SMG_05_F", "", 0, 0 },
             { "Binocular", "", 0, 0 },
             { "ItemGPS", "", 0, 0 },
             { "FirstAidKit", "", 0, 0 },
