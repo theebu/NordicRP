@@ -9834,6 +9834,9 @@
             <Portuguese>Loja de Roupas da Polícia</Portuguese>
             <Polish>Umundurowanie</Polish>
         </Key>
+		<Key ID="STR_MAR_Cop_Clothing_Shop">
+            <Original>NIS Clothing Shop</Original>
+        </Key>
         <Key ID="STR_MAR_Cop_Weapon_Shop">
             <Original>Cop Weapon Shop</Original>
             <Czech>Cop obchodu se zbraněmi</Czech>
@@ -9844,6 +9847,9 @@
             <German>Polizei Waffenhändler</German>
             <Portuguese>Loja de Armas da Polícia</Portuguese>
             <Polish>Broń policji</Polish>
+        </Key>
+		<Key ID="STR_MAR_Cop_NIS_Shop">
+            <Original>NIS Weapon Shop</Original>
         </Key>
         <Key ID="STR_MAR_Patrol_Officer_Weapon_Shop">
             <Original>Patrol Officer Weapon Shop</Original>
