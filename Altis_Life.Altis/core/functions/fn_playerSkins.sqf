@@ -84,7 +84,7 @@ switch (playerSide) do {
             };
         };
 
-		if (uniform player isEqualTo "U_C_WorkerCoveralls") then {
+		if (uniform player isEqualTo "U_O_OfficerUniform_ocamo") then {
             player setObjectTextureGlobal [0, "textures\Medic\medicjacket.jpg"];
         };
 		

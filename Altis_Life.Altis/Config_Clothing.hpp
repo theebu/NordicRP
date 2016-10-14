@@ -263,8 +263,8 @@ class Clothing {
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
             { "U_Rangemaster", "Medic Uniform", 0, { "", "", -1 } },
-            { "U_C_WorkerCoveralls", "Medic Jacket", 0, { "life_mediclevel", "SCALAR", 2 } },
-            { "U_C_Scientist", "Pilot Uniform", 0, { "life_mediclevel", "SCALAR", 3 } }
+            { "U_O_OfficerUniform_ocamo", "Medic Jacket", 0, { "life_mediclevel", "SCALAR", 2 } }
+            //{ "U_C_Scientist", "Pilot Uniform", 0, { "life_mediclevel", "SCALAR", 3 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },

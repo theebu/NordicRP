@@ -205,7 +205,7 @@ class WeaponShops {
     };
 
     class cop_shop_4 {
-        name = "Polisintendent";
+        name = "Polisintendent 1";
         side = "cop";
         license = "";
         level[] = { "life_coplevel", "SCALAR", 4, "You must be a higher Rank!" };
@@ -229,7 +229,7 @@ class WeaponShops {
         };
     };
 	class cop_shop_5 {
-        name = "Polismästare";
+        name = "Polisintendent 2";
         side = "cop";
         license = "";
         level[] = { "life_coplevel", "SCALAR", 5, "You must be a higher Rank!" };
@@ -253,7 +253,7 @@ class WeaponShops {
         };
     };
 	class cop_shop_6 {
-        name = "Biträdande Polisdirektör";
+        name = "Polismästare";
         side = "cop";
         license = "";
         level[] = { "life_coplevel", "SCALAR", 6, "You must be a higher Rank!" };
@@ -278,7 +278,7 @@ class WeaponShops {
         };
     };
 	class cop_shop_7 {
-        name = "Polisdirektör";
+        name = "Polismästare";
         side = "cop";
         license = "";
         level[] = { "life_coplevel", "SCALAR", 7, "You must be a higher Rank!" };
@@ -304,10 +304,10 @@ class WeaponShops {
     };
 	
 	class cop_shop_8 {
-        name = "Rikspolischef";
+        name = "Biträdande polisdirektör";
         side = "cop";
         license = "nis";
-        level[] = { "life_coplevel", "SCALAR", 2, "You must be a higher Rank!" };
+        level[] = { "life_coplevel", "SCALAR", 8, "You must be a higher Rank!" };
         items[] = {
             { "hgun_P07_snds_F", "Stun Pistol", 0, 0 },
             { "hgun_P07_F", "", 0, 0 },
@@ -327,6 +327,57 @@ class WeaponShops {
 			{ "acc_flashlight", "", 0, 0 }
         };
     };
+	
+	class cop_shop_9 {
+        name = "Polisdirektör";
+        side = "cop";
+        license = "nis";
+        level[] = { "life_coplevel", "SCALAR", 9, "You must be a higher Rank!" };
+        items[] = {
+            { "hgun_P07_snds_F", "Stun Pistol", 0, 0 },
+            { "hgun_P07_F", "", 0, 0 },
+			{ "SMG_05_F", "", 0, 0 },
+            { "Binocular", "", 0, 0 },
+            { "ItemGPS", "", 0, 0 },
+            { "FirstAidKit", "", 0, 0 },
+            { "NVGoggles_OPFOR", "", 0, 0 }		
+        };
+        mags[] = {
+            { "16Rnd_9x21_Mag", "Taser Cartridge", 0 },
+			{ "30Rnd_9x21_Mag_SMG_02", "", 0 }
+        };
+        accs[] = {
+            { "optic_Aco", "", 0, 0 },
+            { "muzzle_snds_L", "", 0 },
+			{ "acc_flashlight", "", 0, 0 }
+        };
+    };
+	
+	class cop_shop_10 {
+        name = "Rikspolischef";
+        side = "cop";
+        license = "nis";
+        level[] = { "life_coplevel", "SCALAR", 10, "You must be a higher Rank!" };
+        items[] = {
+            { "hgun_P07_snds_F", "Stun Pistol", 0, 0 },
+            { "hgun_P07_F", "", 0, 0 },
+			{ "SMG_05_F", "", 0, 0 },
+            { "Binocular", "", 0, 0 },
+            { "ItemGPS", "", 0, 0 },
+            { "FirstAidKit", "", 0, 0 },
+            { "NVGoggles_OPFOR", "", 0, 0 }		
+        };
+        mags[] = {
+            { "16Rnd_9x21_Mag", "Taser Cartridge", 0 },
+			{ "30Rnd_9x21_Mag_SMG_02", "", 0 }
+        };
+        accs[] = {
+            { "optic_Aco", "", 0, 0 },
+            { "muzzle_snds_L", "", 0 },
+			{ "acc_flashlight", "", 0, 0 }
+        };
+    };
+
 
 	class cop_nis_shop {
         name = "NIS";
