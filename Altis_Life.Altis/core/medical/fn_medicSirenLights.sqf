@@ -10,7 +10,7 @@
 private ["_vehicle","_trueorfalse"];
 _vehicle = param [0,ObjNull,[ObjNull]];
 if (isNull _vehicle) exitWith {}; //Bad entry!
-if (!(typeOf _vehicle in ["C_Offroad_01_Red_F","B_MRAP_01_F","C_Heli_light_01_red_F","I_Heli_light_03_unarmed_F"])) exitWith {}; //Last chance check to prevent something from defying humanity and creating a monster.
+if (!(typeOf _vehicle in ["C_Van_01_box_F","C_Offroad_01_Red_F","B_MRAP_01_F","C_Heli_light_01_red_F","I_Heli_light_03_unarmed_F"])) exitWith {}; //Last chance check to prevent something from defying humanity and creating a monster.
 
 _trueorfalse = _vehicle getVariable ["lights",FALSE];
 

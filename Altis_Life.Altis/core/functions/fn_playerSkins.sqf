@@ -77,8 +77,20 @@ switch (playerSide) do {
     };
 
     case independent: {
-        if (uniform player isEqualTo "U_Rangemaster") then {
-            player setObjectTextureGlobal [0, "textures\Medic\medicuniform.jpg"];
+		if (uniform player isEqualTo "U_Rangemaster") then {
+            player setObjectTextureGlobal [0, "textures\Medic\medicuniform.jpg"]; 
+            if (FETCH_CONST(life_mediclevel) == 1) then {
+                player setObjectTextureGlobal [0, "textures\Medic\medicTrainee.jpg"];
+            };
         };
+
+		if (uniform player isEqualTo "U_C_WorkerCoveralls") then {
+            player setObjectTextureGlobal [0, "textures\Medic\medicjacket.jpg"];
+        };
+		
+		if (uniform player isEqualTo "U_C_Scientist") then {
+            player setObjectTextureGlobal [0, "textures\Medic\medicheliuniform.jpg"];
+        };
+		
     };
 };

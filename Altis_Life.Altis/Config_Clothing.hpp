@@ -42,8 +42,8 @@ class Clothing {
             { "U_OrestesBody", "Surfing On Land", 1100, { "", "", -1 } },
             { "U_IG_Guerilla2_3", "The Outback Rangler", 1200, { "", "", -1 } },
             { "U_C_HunterBody_grn", "The Hunters Look", 1500, { "", "", -1 } },
-            { "U_C_WorkerCoveralls", "Mechanic Coveralls", 2500, { "", "", -1 } },
-            { "U_NikosAgedBody", "Casual Wears", 5000, { "", "", -1 } }
+            { "U_C_WorkerCoveralls", "Mechanic Coveralls", 2500, { "", "", -1 } }
+            //{ "U_NikosAgedBody", "Casual Wears", 5000, { "", "", -1 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
@@ -161,7 +161,8 @@ class Clothing {
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
             { "H_Cap_police", "", 0, { "", "", -1 } },
-            { "H_Beret_blk_POLICE", "", 0, { "life_coplevel", "SCALAR", 2 } }
+            { "H_Beret_blk_POLICE", "", 0, { "life_coplevel", "SCALAR", 2 } },
+            { "H_PilotHelmetHeli_B", "", 0, { "", "", -1 } }
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
@@ -261,24 +262,27 @@ class Clothing {
         side = "med";
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
-            { "U_Rangemaster", "Medic Uniform", 50, { "", "", -1 } },
-            { "U_C_WorkerCoveralls", "Medic Jacket", 50, { "life_mediclevel", "SCALAR", 2 } },
-            { "U_C_Scientist", "Pilot Uniform", 50, { "life_mediclevel", "SCALAR", 3 } }
+            { "U_Rangemaster", "Medic Uniform", 0, { "", "", -1 } },
+            { "U_C_WorkerCoveralls", "Medic Jacket", 0, { "life_mediclevel", "SCALAR", 2 } },
+            { "U_C_Scientist", "Pilot Uniform", 0, { "life_mediclevel", "SCALAR", 3 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
-            { "H_Cap_blu", "", 10, { "", "", -1 } }
+            { "H_Cap_blu", "", 0, { "", "", -1 } },
+            { "H_Cap_red", "", 0, { "", "", -1 } },
+            { "H_PilotHelmetHeli_O", "", 0, { "", "", -1 } }
+			
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
-            { "G_Shades_Blue", "", 10, { "", "", -1 } }
+            { "G_Shades_Blue", "", 0, { "", "", -1 } }
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } }
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
-            { "B_FieldPack_oli", "EMS Backpack", 3000, { "", "", -1 } }
+            { "B_FieldPack_oli", "EMS Backpack", 0, { "", "", -1 } }
         };
     };
 

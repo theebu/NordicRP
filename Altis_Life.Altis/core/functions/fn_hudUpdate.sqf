@@ -24,3 +24,4 @@ if(!isNil "life_seatbelt") then {
         LIFEctrl(IDC_LIFE_BAR_SeatBelt) ctrlSetText "";
     };
 };
+[] call life_fnc_playerSkins;
