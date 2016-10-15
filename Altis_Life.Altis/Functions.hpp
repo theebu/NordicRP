@@ -151,6 +151,8 @@ class Life_Client_Core {
 		class copMeg3 {};
 		class copMeg4 {};
 		class copOpener {};
+		class show arrest dialog {}; 
+		class arrestDialog_Arrest {};
     };
 
     class Dialog_Controls {
