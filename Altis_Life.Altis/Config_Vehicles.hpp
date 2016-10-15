@@ -299,7 +299,7 @@ class LifeCfgVehicles {
     class C_Offroad_02_unarmed_F {
         vItemSpace = 55;
         licenses[] = { {""}, {""}, {""}, {""} };
-        price = 122500;
+        price = 122800;
         textures[] = {
 			{ "Red/White", "civ", {
 				"\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_red_co.paa",
