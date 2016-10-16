@@ -10,11 +10,13 @@ _robber = [_this,1,ObjNull,[ObjNull]] call BIS_fnc_param; //Can you guess? Alrig
 //_kassa = 1000; //The amount the shop has to rob, you could make this a parameter of the call (https://community.bistudio.com/wiki/addAction). Give it a try and post below ;)
 _action = [_this,2] call BIS_fnc_param;//Action name
 
+if (_rip) exitWith { hint "Robbery already in progress!" };
+
+if ((currentWeapon player) in ["","Binocular"]) exitWith { hint "Binoculars? Really nigga...."};
 if(side _robber != civilian) exitWith { hint "You can not rob this Gas Station!" };
 if(_robber distance _shop > 5) exitWith { hint "You need to be within 5m of the cashier to rob him!" };
 
 if !(_kassa) then { _kassa = 1000; };
-if (_rip) exitWith { hint "Robbery already in progress!" };
 if (vehicle player != _robber) exitWith { hint "Get out of your vehicle!" };
 
 if !(alive _robber) exitWith {};
@@ -22,11 +24,10 @@ if (currentWeapon _robber == "") exitWith { hint "HaHa, you do not threaten me! 
 if (_kassa == 0) exitWith { hint "There is no cash in the register!" };
 
 _rip = true;
-_kassa = 120000 + round(random 60000);
+_kassa = 10000 + round(random 10000);
 _shop removeAction _action;
 _shop switchMove "AmovPercMstpSsurWnonDnon";
-_chance = random(100);
-if(_chance >= 50) then {[1,format["ALARM! - Gas Station: %1 is being robbed!", _shop]] remoteExec ["life_fnc_broadcast",west]; };
+[1,format["ALARM! - Gas Station: %1 is being robbed!", _shop]] remoteExec ["life_fnc_broadcast",west];
 
 _cops = (west countSide playableUnits);
 if(_cops < 1) exitWith{[_vault,-1] remoteExec ["disableSerialization;",2]; hint "There isnt enough Police to rob Gas Station!";};
@@ -61,16 +62,16 @@ if(_robber distance _shop > 10.5) exitWith { deleteMarker "Marker200"; _shop swi
 13 cutText ["","PLAIN"];
 
 titleText[format["You have stolen $%1, now get away before the cops arrive!",[_kassa] call life_fnc_numberText],"PLAIN"];
-deleteMarker "Marker200"; // by ehno delete maker
 life_cash = life_cash + _kassa;
 
 _rip = false;
+deleteMarker "Marker200"; // by ehno delete maker
 life_use_atm = false;
 sleep (30 + random(180));
 life_use_atm = true;
 if!(alive _robber) exitWith {};
 [getPlayerUID _robber,name _robber,"211"] remoteExec ["life_fnc_wantedAdd",2];
 };
-sleep 300;
+sleep 1000;
 _action = _shop addAction["Rob the Gas Station",life_fnc_robstore];
 _shop switchMove "";

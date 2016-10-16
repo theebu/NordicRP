@@ -170,6 +170,9 @@ class LifeCfgVehicles {
         textures[] = {       
             { "Polis", "cop", {
                 "textures\Police\polishatchback.jpg"
+            } },
+			{ "Grey", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base08_co.paa"
             } }
         };
     };
