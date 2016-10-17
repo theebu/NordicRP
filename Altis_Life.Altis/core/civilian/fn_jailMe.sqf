@@ -25,31 +25,32 @@ if(_time <= 0) then { _time = time + (15 * 60); hintC "Please Report to Admin: J
 		} else {
 			sleep ( (_this select 1) * 0.2 );
 		};
-		life_canpay_bail = nil;
+		life_canpay_bail = true;
 	};
 	
-while {true} do {
-	if((round(_time - time)) > 0) then {
-		_countDown = if(round (_time - time) > 60) then {format["%1 Minuten",round(round(_time - time) / 60)]} else {format["%1 Sekunden",round(_time - time)]};
-		if(isNil "life_canpay_bail") then {
-			hintSilent format["Time Remaining:\n %1\n\nCan pay Bail: %3\nBail Amount: $%2",_countDown,[life_bail_amount] call life_fnc_numberText, "dass"];
-		} else {
-			hintSilent format["Time Remaining:\n %1\n",_countDown];
-		};
-	};
-	
-	if(player distance (getMarkerPos "jail_marker") > 60) exitWith {
-		_esc = true;
-	};
-	
-	if(life_bail_paid) exitWith {
-		_bail = true;
-	};
-	
-	if((round(_time - time)) < 1) exitWith {hint ""};
-	if(!alive player && ((round(_time - time)) > 0)) exitWith {};
-	sleep 1;
+for "_i" from 0 to 1 step 0 do {
+    if ((round(_time - time)) > 0) then {
+        _countDown = [(_time - time),"MM:SS.MS"] call BIS_fnc_secondsToString;
+        hintSilent parseText format [(localize "STR_Jail_Time")+ "<br/> <t size='2'><t color='#FF0000'>%1</t></t><br/><br/>" +(localize "STR_Jail_Pay")+ " %3<br/>" +(localize "STR_Jail_Price")+ " $%2",_countDown,[life_bail_amount] call life_fnc_numberText,if (life_canpay_bail) then {"Yes"} else {"No"}];
+    };
+
+    if (LIFE_SETTINGS(getNumber,"jail_forceWalk") isEqualTo 1) then {
+        player forceWalk true;
+    };
+
+    if (player distance (getMarkerPos "jail_marker") > 60) exitWith {
+        _esc = true;
+    };
+
+    if (life_bail_paid) exitWith {
+        _bail = true;
+    };
+
+    if ((round(_time - time)) < 1) exitWith {hint ""};
+    if (!alive player && ((round(_time - time)) > 0)) exitWith {};
+    sleep 0.1;
 };
+
 switch (true) do {
 	case (_bail): {
 		life_is_arrested = false;
@@ -59,6 +60,7 @@ switch (true) do {
 		player setPos (getMarkerPos "jail_release");
 		[getPlayerUID player] remoteExecCall ["life_fnc_wantedRemove",RSERV];
 		[5] call SOCK_fnc_updatePartial;
+		[] call life_fnc_outOfJail;
 	};
 	case (_esc): {
 		life_is_arrested = false;
@@ -73,5 +75,6 @@ switch (true) do {
 		[getPlayerUID player] remoteExecCall ["life_fnc_wantedRemove",RSERV];
 		player setPos (getMarkerPos "jail_release");
 		[5] call SOCK_fnc_updatePartial;
+		[] call life_fnc_outOfJail;
 	};
 };

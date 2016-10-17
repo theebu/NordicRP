@@ -14,4 +14,4 @@ params [
 if (isNull _unit || {_unit != life_ticket_unit}) exitWith {}; //NO
 if (isNull _cop || {_cop != player}) exitWith {}; //Double NO
 
-BANK = BANK + _value;
+BANK = BANK + (_value / 3);

@@ -58,3 +58,4 @@ if (life_HC_isActive) then {
 };
 
 [5] call SOCK_fnc_updatePartial;
+[] call life_fnc_inJail;

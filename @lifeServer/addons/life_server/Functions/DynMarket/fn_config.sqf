@@ -12,7 +12,7 @@
 // █████████████████ DYNAMIC MARKET BASIC CONFIGURATION ██████████████████
 // ███████████████████████████████████████████████████████████████████████
 
-DYNMARKET_Serveruptime         = 06;   // Serveruptime after restart in hours
+DYNMARKET_Serveruptime         = 04;   // Serveruptime after restart in hours
 DYNMARKET_UseExternalDatabase  = true; // Should the script use the External Database?
 DYNMARKET_PriceUpdateInterval  = 01;   // After how many minutes should the price be updated?
 DYNMARKET_CreateBackups        = true; // Should the server save write the prices regulary into the Database? If false, it will save the prices before Server-restart?
@@ -85,7 +85,6 @@ DYNMARKET_Items_Groups =
 DYNMARKET_Items_ToTrack        =
 [
 	["apple",105],
-	["pokemon",900],
 	["peach",110],
 	["rabbit_raw",250],
 	["ornate_raw",450],

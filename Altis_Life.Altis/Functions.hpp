@@ -98,6 +98,8 @@ class Life_Client_Core {
         class freezePlayer {};
         class jail {};
         class jailMe {};
+        class inJail {};
+        class outOfJail {};
         class knockedOut {};
         class knockoutAction {};
         class removeLicenses {};
@@ -116,7 +118,20 @@ class Life_Client_Core {
         class vehicleAnimate {};
         class vehicleWeightCfg {};
     };
-
+	
+	class CopPlaceables
+	{
+		file = "core\cop\placeables";
+		class placeablesInit {};
+		class placeablesMenu {};
+		class placeablesMenu2 {};
+		class placeablesRemoveAll {};
+		class placeablePlace {};
+		class placeableCancel {};
+		class placeablesPlaceComplete {};
+		class placeablesRemove {};
+	};
+	
     class Cop {
         file = "core\cop";
         class bountyReceive {};

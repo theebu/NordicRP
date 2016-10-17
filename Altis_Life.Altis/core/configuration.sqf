@@ -11,6 +11,7 @@
 ****** Backend Variables *****
 *****************************
 */
+life_barrier_active = false;
 life_nlrtimer_running = false;
 life_nlrtimer_stop = false;
 life_yelp_active = false;

@@ -79,7 +79,7 @@ class CfgSpawnPoints {
 
     class Cop {
         class Kavala {
-            displayName = "Kavala HQ";
+            displayName = "Kavala District";
             spawnMarker = "cop_spawn_1";
             icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
             licenses[] = { { "", true } };
@@ -87,7 +87,7 @@ class CfgSpawnPoints {
         };
 
         class Athira {
-            displayName = "Athira HQ";
+            displayName = "Athira District";
             spawnMarker = "cop_spawn_3";
             icon = "\a3\ui_f\data\map\MapControl\fuelstation_ca.paa";
             licenses[] = { { "", true } };
@@ -95,15 +95,15 @@ class CfgSpawnPoints {
         };
 
         class Pyrgos {
-            displayName = "Pyrgos HQ";
-            spawnMarker = "cop_spawn_2";
+            displayName = "Training Center";
+            spawnMarker = "cop_training";
             icon = "\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa";
             licenses[] = { { "", true } };
             level[] = { "", "", -1 };
         };
 
         class Air {
-            displayName = "Air HQ";
+            displayName = "Airport";
             spawnMarker = "cop_spawn_4";
             icon = "\a3\ui_f\data\map\Markers\NATO\b_air.paa";
             licenses[] = { { "cAir", true } };

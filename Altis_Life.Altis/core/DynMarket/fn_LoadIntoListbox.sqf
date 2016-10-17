@@ -14,10 +14,7 @@ if (isNil "DYNMARKET_prices") then {[getPlayerUID player] remoteExec ["TON_fnc_p
 disableSerialization;
 _dialog = findDisplay 7100;
 _listbox = _dialog displayCtrl 7055;
-_blacklist =
-[
-	"apple"
-];
+_blacklist =[];
 
 {
 	_itemName = _x select 0;
