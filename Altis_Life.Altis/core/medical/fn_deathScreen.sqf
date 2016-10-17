@@ -22,7 +22,7 @@ waitUntil {
 			if (_distance < _nearby) then { _nearby = _distance; };
 		};
 	} foreach playableUnits;
-	_medicsOnline ctrlSetText format[localize "STR_Medic_Online",[independent] call life_fnc_playerCount];
+	_medicsOnline ctrlSetText format[localize "STR_Medic_Online",(independent countSide playableUnits)];
 	if (_nearby == 99999) then { _medicsNear ctrlSetText format["Nearest Medic: None",_nearby]; }
 	else { _medicsNear ctrlSetText format["Nearest Medic: %1m",[(round _nearby)] call life_fnc_numberText]; };
 	sleep 1;
