@@ -76,12 +76,8 @@ if(playerSide == west) then {
 		};
 	};
 	
-	if(_curTarget isKindOf "I_Truck_02_box_F") then {
-		_Btn7 ctrlSetText "Get Barriers";
-		_Btn7 buttonSetAction "[] spawn life_fnc_placeablesMenu; closeDialog 0;";
-	} else {_Btn7 ctrlShow false};
-	
-	if(_curTarget isKindOf "C_Offroad_01_blue_F") then {
+	if(typeOf _curTarget in ["C_Offroad_01_blue_F","I_Truck_02_box_F"]) then {
+		_Btn7 ctrlShow true;
 		_Btn7 ctrlSetText "Get Barriers";
 		_Btn7 buttonSetAction "[] spawn life_fnc_placeablesMenu2; closeDialog 0;";
 	} else {_Btn7 ctrlShow false};

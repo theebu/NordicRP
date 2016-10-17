@@ -22,6 +22,10 @@ life_placeables =
         "Road Barrier",
         "RoadBarrier_F"
     ],
+	[
+        "Small Road Barrier",
+        "RoadBarrier_small_F"
+    ],
     [
         "Bar Gate",
         "Land_BarGate_F"
@@ -56,16 +60,8 @@ life_placeables =
         "Land_PortableLight_double_F"
     ],
 	[
-		"Green Road Light",
-		"PortableHelipadLight_01_green_F"
-	],
-	[
-		"Red Road Light",
-		"PortableHelipadLight_01_red_F"
-	],
-	[
-		"Yellow Road Light",
-		"PortableHelipadLight_01_yellow_F"
+		"Road Flare",
+		"Chemlight_red"
 	]
 ];
 life_placeables2 =
@@ -83,9 +79,13 @@ life_placeables2 =
         "RoadBarrier_F"
     ],
     [
-        "Safety Barrier",
-        "Land_Crash_barrier_F"
-    ]
+        "Small Road Barrier",
+        "RoadBarrier_small_F"
+    ],
+	[
+		"Road Flare",
+		"Chemlight_red"
+	]
 ];
 life_bar_limit = 2500;
 life_bar_placey = [];

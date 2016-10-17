@@ -103,7 +103,8 @@ class CarShops {
 			{ "C_Offroad_01_blue_F", { "", "", -1 } },
             { "C_SUV_01_F", { "", "", -1 } },
             { "C_Hatchback_01_sport_blue_F", { "life_coplevel", "SCALAR", 1 } },
-            { "B_MRAP_01_F", { "life_coplevel", "SCALAR", 2 } }
+            { "B_MRAP_01_F", { "life_coplevel", "SCALAR", 2 } },
+            { "I_Truck_02_box_F", { "life_coplevel", "SCALAR", 2 } }
            
         };
     };
@@ -795,6 +796,18 @@ class LifeCfgVehicles {
             { "Orange", "civ", {
                 "\A3\Soft_F_Beta\Truck_02\data\truck_02_kab_co.paa",
                 "\a3\soft_f_beta\Truck_02\data\truck_02_kuz_co.paa"
+            } }
+        };
+    };
+	
+	class I_Truck_02_box_F {
+        vItemSpace = 260;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 800000;
+        textures[] = {
+            { "Police", "cop", {
+                "textures\police\truck_02_kab_polis_co.jpg",
+                "textures\police\truck_02_repair_polis_co.jpg"
             } }
         };
     };

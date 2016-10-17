@@ -157,7 +157,7 @@ if (count _damage > 0 && (LIFE_SETTINGS(getNumber,"save_vehicle_damage") isEqual
 };
 
 
-if ((_vInfo select 1) isEqualTo "cop" && ((_vInfo select 2)) in ["C_Offroad_01_blue_F","B_MRAP_01_F","C_SUV_01_F","C_Hatchback_01_sport_blue_F","B_Heli_Light_01_F","I_Heli_light_03_unarmed_F"]) then {
+if ((_vInfo select 1) isEqualTo "cop" && ((_vInfo select 2)) in ["I_Truck_02_box_F","C_Offroad_01_blue_F","B_MRAP_01_F","C_SUV_01_F","C_Hatchback_01_sport_blue_F","B_Heli_Light_01_F","I_Heli_light_03_unarmed_F"]) then {
     [_vehicle,"cop_offroad",true] remoteExecCall ["life_fnc_vehicleAnimate",_unit];
 };
 

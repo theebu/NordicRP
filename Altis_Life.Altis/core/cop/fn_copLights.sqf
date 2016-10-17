@@ -135,10 +135,14 @@ switch (_type) do
         [true, "white", [-0.85, 1.475, -0.55]] call _attach;
         [false, "white", [0.85, 1.475, -0.55]] call _attach;
 	};
-	case "I_Truck_02_covered_F":
+	case "I_Truck_02_box_F":
 	{
-	    [false, "red", [-0.65, -0.2, 0.6]] call _attach;
-		[true, "blue", [0.65, -0.2, 0.6]] call _attach;
+	    [false, "blue", [-0.9,3.4,0.5]] call _attach;
+		[true, "blue", [0.9,3.4,0.5]] call _attach;
+		[false, "blue", [0.8,-3.4,1]] call _attach;
+		[true, "blue", [-0.8,-3.4,1]] call _attach;
+		[false, "white", [0.9,3.9,-0.9]] call _attach;
+		[true, "white", [-0.9,3.85,-0.9]] call _attach;
 	};
 };
 

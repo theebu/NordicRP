@@ -1,7 +1,7 @@
 #include "\life_server\script_macros.hpp"
 /*
  File: fn_jailSys.sqf
- Author: Bryan "Tonic" wills
+ Author: Bryan "Tonic" Boardwine
  Description:
  I forget?
 */
