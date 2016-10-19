@@ -418,7 +418,7 @@ class VirtualItems {
     class diamond_uncut {
         variable = "diamondUncut";
         displayName = "STR_Item_DiamondU";
-        weight = 4;
+        weight = 5;
         buyPrice = -1;
         sellPrice = -1;
         illegal = false;
@@ -429,7 +429,7 @@ class VirtualItems {
     class diamond_cut {
         variable = "diamondCut";
         displayName = "STR_Item_DiamondC";
-        weight = 2;
+        weight = 3;
         buyPrice = -1;
         sellPrice = 3130;
         illegal = false;

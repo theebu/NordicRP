@@ -610,9 +610,9 @@ class LifeCfgVehicles {
     };
 	
 	class C_Plane_Civil_01_racing_F {
-    vItemSpace = 325;
+    vItemSpace = 400;
     licenses[] = { {"pilot"}, {""}, {"mAir"}, {""} };
-    price = 3125000;
+    price = 4125000;
     textures[] = {};
     };
 
@@ -692,37 +692,37 @@ class LifeCfgVehicles {
 	
 	///BOATS///
     class B_SDV_01_F {
-        vItemSpace = 50;
+        vItemSpace = 560;
         licenses[] = { {"boat"}, {"cg"}, {""}, {""} };
-        price = 150000;
+        price = 6900000;
         textures[] = {};
     };
 	
 	class C_Rubberboat {
-        vItemSpace = 45;
+        vItemSpace = 110;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
-        price = 5000;
+        price = 320000;
         textures[] = { };
     };
 	
 	class C_Boat_Civil_01_F {
-        vItemSpace = 85;
+        vItemSpace = 270;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
-        price = 22000;
+        price = 1000000;
         textures[] = { };
     };
 	
 	class C_Scooter_Transport_01_F {
-        vItemSpace = 35;
+        vItemSpace = 25;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
-        price = 15000;
+        price = 35000;
         textures[] = { };
     };
 	
 	class C_Boat_Transport_02_F {
-        vItemSpace = 120;
+        vItemSpace = 350;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
-        price = 75000;
+        price = 1900000;
         textures[] = { };
     };
 	
