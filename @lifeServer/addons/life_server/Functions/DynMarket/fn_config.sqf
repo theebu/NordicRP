@@ -40,9 +40,9 @@ DYNMARKET_Items_Groups =
 	],
 	["Illegal",
 		[
-			["heroin_processed",-1,4500,5500],
-			["marijuana",-1,1500,2500],
-			["cocaine_processed",-1,2500,3500],
+			["heroin_processed",-1,3500,7600],
+			["marijuana",-1,2500,3500],
+			["cocaine_processed",-1,3600,8000],
 			["turtle_raw",-1,2000,6000],
 			["goldbar",-1,80000,150000]
 		],
@@ -51,12 +51,12 @@ DYNMARKET_Items_Groups =
 	["minerals",
 		[
 			["copper_refined",-1,1300,2000],
-			["iron_refined",-1,2000,3000],
+			["iron_refined",-1,1000,2000],
 			["salt_refined",-1,600,1100],
-			["glass",-1,500,900],
-			["cement",-1,2000,3000],
-			["diamond_cut",-1,3000,4500],
-			["oil_processed",-1,3000,5000]
+			["glass",-1,500,1200],
+			["cement",-1,900,2000],
+			["diamond_cut",-1,2900,4200],
+			["oil_processed",-1,1100,2000]
 		],
 		0.5
 	],
@@ -103,21 +103,21 @@ DYNMARKET_Items_ToTrack        =
 	["goldbar",95000],
 	["blastingcharge",100000],
 
-	["oil_processed",4000],
-	["copper_refined",1800],
-	["iron_refined",2500],
-	["salt_refined",800],
-	["glass",750],
-	["diamond_cut",3500],
-	["cement",2500],
+	["oil_processed",1600],
+	["copper_refined",1500],
+	["iron_refined",1900],
+	["salt_refined",900],
+	["glass",950],
+	["diamond_cut",3300],
+	["cement",1500],
 
 	
 
 
 	["turtle_raw",6000],
-	["heroin_processed",5000],
-	["marijuana",2000],
-	["cocaine_processed",3000]
+	["heroin_processed",7000],
+	["marijuana",3000],
+	["cocaine_processed",7500]
 ];
 
 //███████████████████████████████████████████████████████████████████████
