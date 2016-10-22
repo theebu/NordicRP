@@ -18,7 +18,7 @@ _tempArrayHolder = DYNMARKET_Items_CurrentPriceArr;
 	_itemPriceMax = 0;
 	_itemGroupName = "";
 	_itemFactorOfGroup = 0;
-	
+
 	_exit = false;
 	if (_itemAmountSold>0) then
 	{
@@ -43,9 +43,9 @@ _tempArrayHolder = DYNMARKET_Items_CurrentPriceArr;
 				} forEach _GROUPITEMSarray;
 			};
 		} forEach DYNMARKET_Items_Groups;
-		
+
 		//ADJUST THE PRICES
-		
+
 		{
 			_GROUParray = _x;
 			_GROUPNAME = _GROUParray select 0;
@@ -58,7 +58,7 @@ _tempArrayHolder = DYNMARKET_Items_CurrentPriceArr;
 					_curITEMpriceperunit = _ITEMSarray select 1;
 					_curITEMmin = _ITEMSarray select 2;
 					_curITEMmax = _ITEMSarray select 3;
-					if (_curITEMname==_itemName) then 
+					if (_curITEMname==_itemName) then
 					{
 						// Find old price
 						_curItemOldPrice = 0;
@@ -80,7 +80,7 @@ _tempArrayHolder = DYNMARKET_Items_CurrentPriceArr;
 							_curItemName3 = _x select 0;
 							_curItemPrice3 = _x select 1;
 							_curItemAmountSold3 = _x select 2;
-							if (_curItemName3 isEqualTo _curITEMname) then {
+							if (_curItemName3==_curITEMname) then {
 								DYNMARKET_Items_CurrentPriceArr set [_index,[_curITEMname,_NEWPRICE,0]];
 							};
 						} forEach DYNMARKET_Items_CurrentPriceArr;
@@ -92,7 +92,7 @@ _tempArrayHolder = DYNMARKET_Items_CurrentPriceArr;
 							_curItemName3 = _x select 0;
 							_curItemPrice3 = _x select 1;
 							_curItemAmountSold3 = _x select 2;
-							if (_curItemName3 isEqualTo _curITEMname) then {
+							if (_curItemName3==_curITEMname) then {
 								_NEWPRICE = _curItemPrice3+(_itemAmountSold*(_curItemPrice3/1000)*_itemFactorOfGroup);
 								if (_NEWPRICE<_curITEMmin) then {_NEWPRICE=_curITEMmin};
 								if (_NEWPRICE>_curITEMmax) then {_NEWPRICE=_curITEMmax};
@@ -106,22 +106,22 @@ _tempArrayHolder = DYNMARKET_Items_CurrentPriceArr;
 	};
 } forEach DYNMARKET_Items_CurrentPriceArr;
 DYNMARKET_Items_CurrentPriceArr = _tempArrayHolder;
-[1,DYNMARKET_Items_CurrentPriceArr] remoteExec ["life_fnc_update",0];
+//[1,DYNMARKET_Items_CurrentPriceArr] remoteExecCall ["life_fnc_update",2];
 
 // Translate to sell_array
 
 {
 	_itemName = _x select 0;
 	_itemNewPrice = _x select 1;
-	
+
 	_index = -1;
 	{
 		_index = _index + 1;
 		_curItemName = _x select 0;
-		if (_curItemName isEqualTo _itemName) then {
+		if (_curItemName==_itemName) then {
 			DYNMARKET_sellarraycopy set [_index,[_itemName,_itemNewPrice]];
 		};
 	} forEach DYNMARKET_sellarraycopy;
 } forEach DYNMARKET_Items_CurrentPriceArr;
 
-[1,DYNMARKET_sellarraycopy] remoteExec ["life_fnc_update",0];
+[1,DYNMARKET_sellarraycopy] remoteExecCall ["life_fnc_update",-2];

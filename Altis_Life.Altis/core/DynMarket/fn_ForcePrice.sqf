@@ -16,17 +16,17 @@ _tochangeNameText = ctrlText _tochangeName;
 _tochangePriceText = ctrlText _tochangePrice;
 _tochangePriceNumber = parseNumber _tochangePriceText;
 
-if ((_tochangeNameText isEqualTo  "")||(_tochangePriceText isEqualTo  "")) exitWith {hint parseText "<t color='#FF0000'>--ERROR--</t><br/><t color='#FF0000'>INVALID INPUT</t>";};
+if ((_tochangeNameText=="")||(_tochangePriceText=="")) exitWith {hint parseText "<t color='#FF0000'>--ERROR--</t><br/><t color='#FF0000'>INVALID INPUT</t>";};
 
 _exists = false;
 
 {
-	if (_tochangeNameText isEqualTo  _x select 0) then {_exists=true;};
+	if (_tochangeNameText==_x select 0) then {_exists=true;};
 } forEach DYNMARKET_prices;
 
 if (_exists) then {
 	hint parseText "<t color='#01DF01'>--UPDATED--</t><br/><t color='#01DF01'>SUCCESSFULLY ADJUSTED THE PRICE, IT WILL UPDATE WITH THE NEXT PRICEUPDATES!</t>";
-[_tochangeNameText,_tochangePriceNumber] remoteExec ["TON_fnc_changePrice",2];
+	[_tochangeNameText,_tochangePriceNumber] remoteExec ["TON_fnc_changePrice",RSERV];
 } else {
 	hint parseText "<t color='#FF0000'>--ERROR--</t><br/><t color='#FF0000'>THE REQUESTED ITEM DOES NOT EXIST, MAYBE YOU MISSPELLED IT?</t>";
 };

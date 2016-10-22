@@ -1,3 +1,4 @@
+#include "..\..\script_macros.hpp"
 /*
 ##################### DYNAMIC MARKET SCRIPT #####################
 ### AUTHOR: RYAN TT.                                          ###
@@ -16,7 +17,7 @@ if (isNil "DYNAMICMARKET_boughtItems") then {DYNAMICMARKET_boughtItems=[];};
 switch (_mode) do {
 	case 0:
 	{
-		[DYNAMICMARKET_boughtItems] remoteExec ["TON_fnc_getUpdate",2];
+		[DYNAMICMARKET_boughtItems] remoteExec ["TON_fnc_getUpdate",RSERV];
 		if (DYNMARKET_UserNotification) then {
 			hint _txt2;
 		};

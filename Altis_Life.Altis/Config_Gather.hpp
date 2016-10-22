@@ -14,19 +14,19 @@ class CfgGather {
         };
 
         class heroin_unprocessed {
-            amount = 3;
+            amount = 2;
             zones[] = { "heroin_1" };
             item = "";
         };
 
         class cocaine_unprocessed {
-            amount = 3;
+            amount = 2;
             zones[] = { "cocaine_1" };
             item = "";
         };
 
         class cannabis {
-            amount = 3;
+            amount = 2;
             zones[] = { "weed_1" };
             item = "";
         };
@@ -75,7 +75,7 @@ Example 2:
 
         class iron_unrefined {
             amount = 2;
-            zones[] = { "iron_mine" };
+            zones[] = { "iron_mine","iron_mine_1" };
             item = "pickaxe";
             mined[] = { "iron_unrefined" };
         };
@@ -103,7 +103,7 @@ Example 2:
 
         class rock {
             amount = 2;
-            zones[] = { "rock_quarry" };
+            zones[] = { "rock_quarry","rock_quarry_1" };
             item = "pickaxe";
             mined[] = { "rock" };
         };

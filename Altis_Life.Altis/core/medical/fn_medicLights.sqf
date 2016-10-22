@@ -21,8 +21,8 @@ _lightBlue = [0, 0, 255];
 if (_sun) then
 {
     _brightnessLow = 0;
-    _brightnessHigh = 10;
-    _attenuation = [0.001, 3000, 0, 125000];
+    _brightnessHigh = 120;
+    _attenuation = [0.001, 3000, 0, 900000];
 } else {
     _brightnessLow = 0;
     _brightnessHigh = 60;
@@ -113,12 +113,17 @@ switch (_type) do
 	
 	case "C_Van_01_box_F":
     {
-        [false, "blue", [-0.85, -0.9, 0.6]] call _attach;
-        [true, "blue", [0.85, -0.9, 0.6]] call _attach;
-        [true, "blue", [-0.93, -2.8, 0.6]] call _attach;
-        [false, "blue", [0.93, -2.8, 0.6]] call _attach;
-        [true, "white", [-0.85, 1.475, -0.75]] call _attach;
-        [false, "white", [0.85, 1.475, -0.75]] call _attach;
+        [false, "blue", [0.25,2.1,-0.75]] call _attach;
+        [true, "blue", [-0.25,2.1,-0.75]] call _attach;
+		
+        [true, "blue", [-1.1,-2.05,1.1]] call _attach;
+        [false, "blue", [1.1,-2.05,1.1]] call _attach;
+		
+        [false, "blue", [-0.7,-3.5,1.3]] call _attach;
+        [true, "blue", [0.7,-3.5,1.3]] call _attach;
+		
+        [true, "white", [-0.7,1.9,-0.35]] call _attach;
+        [false, "white", [0.7,1.9,-0.35]] call _attach;
     };
 	
 	case "B_Quadbike_01_F":

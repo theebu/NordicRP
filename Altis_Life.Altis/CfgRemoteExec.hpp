@@ -13,7 +13,7 @@ class CfgRemoteExec {
         jip = 0;
 
         /* Client only functions */
-	
+		F(life_fnc_update,CLIENT)
 		F(life_fnc_setupCellPhone,CLIENT)
 		F(life_fnc_passeportCiv,CLIENT)
         F(life_fnc_addVehicle2Chain,CLIENT)
@@ -63,6 +63,7 @@ class CfgRemoteExec {
         F(life_fnc_soundDevice,CLIENT)
         F(life_fnc_spikeStripEffect,CLIENT)
         F(life_fnc_tazeSound,CLIENT)
+        F(life_fnc_fuelCon,CLIENT)
         F(life_fnc_ticketPaid,CLIENT)
         F(life_fnc_ticketPrompt,CLIENT)
         F(life_fnc_vehicleAnimate,CLIENT)
@@ -86,7 +87,7 @@ class CfgRemoteExec {
 		F(TON_fnc_playerLogged,SERVER) //DynMarket
 		F(TON_fnc_getUpdate,SERVER) //DynMarket
 		F(TON_fnc_changePrice, SERVER) //DynMarket
-		F(life_fnc_update,CLIENT) //DynMarket
+		
         F(BIS_fnc_execVM,SERVER)
         F(DB_fnc_insertRequest,SERVER)
         F(DB_fnc_queryRequest,SERVER)

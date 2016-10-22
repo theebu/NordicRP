@@ -33,8 +33,8 @@ if (KINDOF_ARRAY(_container,_list)) exitWith {
     };
 };
 
-//Allow alive players who've been knocked out to be looted, just not the dead ones
+/*//Allow alive players who've been knocked out to be looted, just not the dead ones
 if (_container isKindOf "Man" && !alive _container) exitWith {
     hint localize "STR_NOTF_NoLootingPerson";
     true;
-};
+};/

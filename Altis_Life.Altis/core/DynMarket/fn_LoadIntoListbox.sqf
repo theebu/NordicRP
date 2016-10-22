@@ -1,4 +1,4 @@
-#include "..\script_macros.hpp"
+#include <macro.h>
 /*
 ##################### DYNAMIC MARKET SCRIPT #####################
 ### AUTHOR: RYAN TT.                                          ###
@@ -9,12 +9,13 @@
 #################################################################
 */
 
-if (isNil "DYNMARKET_prices") then {[getPlayerUID player] remoteExec ["TON_fnc_playerLogged",2];hint "Getting current prices from the server..";sleep 1;};
+if (isNil "DYNMARKET_prices") then {[getPlayerUID player] remoteExec ["TON_fnc_playerLogged",2];hint "Calcul des prix en cours..";sleep 1;};
 
 disableSerialization;
 _dialog = findDisplay 7100;
 _listbox = _dialog displayCtrl 7055;
-_blacklist =[];
+_blacklist =
+[];
 
 {
 	_itemName = _x select 0;

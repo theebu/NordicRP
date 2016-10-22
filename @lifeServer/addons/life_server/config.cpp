@@ -89,6 +89,7 @@ class CfgFunctions {
             class calculatePrices {};
             class config {};
             class getUpdate {};
+            class changePrice {};
             class HandleDB {};
             class playerLogged {};
             class sleeper {};

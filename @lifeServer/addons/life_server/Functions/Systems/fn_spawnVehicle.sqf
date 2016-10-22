@@ -101,6 +101,8 @@ _vehicle setVariable["vehicle_info_owners",[[_pid,_name]],true];
 _vehicle setVariable["dbInfo",[(_vInfo select 4),(_vInfo select 7)],true];
 _vehicle disableTIEquipment true; //No Thermals.. They're cheap but addictive.
 [_vehicle] call life_fnc_clearVehicleAmmo;
+//[_vehicle,0.7] call life_fnc_fuelCon;
+[_vehicle,0.0006] remoteExec ["life_fnc_fuelCon",_unit];
 
 // Avoid problems if u keep changing which stuff to save!
 if (LIFE_SETTINGS(getNumber,"save_vehicle_virtualItems") isEqualTo 1) then {

@@ -60,7 +60,7 @@ _masks = LIFE_SETTINGS(getArray,"clothing_masks");
                         case 5: {"Polisintendent 1"};
                         case 6: {"Polismästare"};
                         case 7: {"Polismästare"};
-                        case 8: {"Biträdande polisdirektör"};
+                        case 8: {"Biträdande Polisdirektör"};
 						case 9: {"Polisdirektör"};
 						case 10: {"Rikspolischef"};
                         default {"Polisaspirant"};

@@ -54,8 +54,7 @@ class CarShops {
             { "C_Heli_Light_01_civil_F", { "", "", -1 } },
             { "I_Heli_light_03_unarmed_F", { "", "", -1 } },
 			{ "C_Plane_Civil_01_F", { "", "", -1 } },
-			{ "C_Plane_Civil_01_racing_F", { "", "", -1 } },
-			{ "I_C_Plane_Civil_01_F", { "", "", -1 } }
+			{ "C_Plane_Civil_01_racing_F", { "", "", -1 } }
         };
     };
 
@@ -93,6 +92,7 @@ class CarShops {
     class med_air_hs {
         side = "med";
         vehicles[] = {
+			{ "B_Heli_Light_01_F", { "life_mediclevel", "SCALAR", 2 } },
             { "I_Heli_light_03_unarmed_F", { "life_mediclevel", "SCALAR", 2 } }
         };
     };
@@ -233,6 +233,9 @@ class LifeCfgVehicles {
         textures[] = {
             { "Polis", "cop", {
                 "textures\Police\PolisHbird.jpg"
+            } },
+			{ "Medic", "med", {
+                "textures\Medic\MedicHumming.jpg"
             } }
         };
     };
@@ -418,15 +421,20 @@ class LifeCfgVehicles {
 				"\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_olive_co.paa",
 				"\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_olive_co.paa",
 				"\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_olive_co.paa"
+			} },
+			{ "Willys", "admin", {
+				"textures\MB_4WD_USA.paa",
+				"textures\MB_4WD_USA.paa",
+				"textures\MB_4WD_USA.paa",
+				"textures\MB_4WD_USA.paa"
 			} }
 		};
     };
-
-
+	
 	class I_C_Offroad_02_unarmed_F: C_Offroad_02_unarmed_F {
-    vItemSpace = 55;
-    licenses[] = { {""}, {""}, {""}, {""} };
-    price = 127500;
+		vItemSpace = 55;
+		licenses[] = { {""}, {""}, {""}, {""} };
+		price = 127500;
     };
 	
 	class C_Offroad_01_F {
@@ -604,16 +612,16 @@ class LifeCfgVehicles {
 
 	///CIV AIR///
 	class C_Plane_Civil_01_F {
-    vItemSpace = 325;
+    vItemSpace = 400;
     licenses[] = { {"pilot"}, {""}, {"mAir"}, {""} };
-    price = 2125000;
+    price = 4125000;
     textures[] = {};
     };
 	
 	class C_Plane_Civil_01_racing_F {
-    vItemSpace = 325;
+    vItemSpace = 400;
     licenses[] = { {"pilot"}, {""}, {"mAir"}, {""} };
-    price = 3125000;
+    price = 4125000;
     textures[] = {};
     };
 
@@ -693,37 +701,37 @@ class LifeCfgVehicles {
 	
 	///BOATS///
     class B_SDV_01_F {
-        vItemSpace = 50;
+        vItemSpace = 560;
         licenses[] = { {"boat"}, {"cg"}, {""}, {""} };
-        price = 150000;
+        price = 6900000;
         textures[] = {};
     };
 	
 	class C_Rubberboat {
-        vItemSpace = 45;
+        vItemSpace = 118;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
-        price = 5000;
+        price = 320000;
         textures[] = { };
     };
 	
 	class C_Boat_Civil_01_F {
-        vItemSpace = 85;
+        vItemSpace = 270;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
-        price = 22000;
+        price = 1000000;
         textures[] = { };
     };
 	
 	class C_Scooter_Transport_01_F {
-        vItemSpace = 35;
+        vItemSpace = 25;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
-        price = 15000;
+        price = 35000;
         textures[] = { };
     };
 	
 	class C_Boat_Transport_02_F {
-        vItemSpace = 120;
+        vItemSpace = 350;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
-        price = 75000;
+        price = 1900000;
         textures[] = { };
     };
 	
