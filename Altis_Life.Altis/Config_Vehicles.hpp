@@ -35,6 +35,28 @@ class CarShops {
             { "C_Kart_01_Vrana_F", { "", "", -1 } }
         };
     };
+	
+	class donor {
+		side = "civ";
+		vehicles[] = {
+			{ "C_Quadbike_01_F", { "life_donorlevel", "SCALAR", 1 } },
+			{ "C_Offroad_01_F", { "life_donorlevel", "SCALAR", 1 } },
+			{ "C_SUV_01_F", { "life_donorlevel", "SCALAR", 1 } },
+			{ "C_Hatchback_01_F", { "life_donorlevel", "SCALAR", 1 } },
+			{ "C_Hatchback_01_sport_F", { "life_donorlevel", "SCALAR", 2 } },	
+			{ "O_Truck_03_device_F", { "life_donorlevel", "SCALAR", 3 } }, 
+			{ "B_Truck_01_box_F", { "life_donorlevel", "SCALAR", 3 } }
+		};
+    };
+	
+	class donor_air {
+		side = "civ";
+		vehicles[] = {
+			{ "C_Heli_Light_01_civil_F", { "life_donorlevel", "SCALAR", 2 } },						
+			{ "I_Heli_Transport_02_F", { "life_donorlevel", "SCALAR", 2 } },
+			{ "O_Heli_Light_02_unarmed_F", { "life_donorlevel", "SCALAR", 3 } }
+		};
+    };
 
     class civ_truck {
         side = "civ";
@@ -44,7 +66,7 @@ class CarShops {
             { "I_Truck_02_covered_F", { "", "", -1 } },
             { "B_Truck_01_transport_F", { "", "", -1 } },
 		    { "B_Truck_01_covered_F", { "", "", -1 } },
-            { "B_Truck_01_box_F", { "", "", -1 } },
+            { "B_Truck_01_box_F", { "", "", -1 } }
         };
     };
 
@@ -639,12 +661,6 @@ class LifeCfgVehicles {
         textures[] = {
            { "White / Blue", "civ", {
                 "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_civilian_co.paa"
-            } },
-            { "Digi Green", "civ", {
-                "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_indp_co.paa"
-            } },
-            { "Desert Digi", "reb", {
-                "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_opfor_co.paa"
             } }
         };
     };
@@ -695,6 +711,26 @@ class LifeCfgVehicles {
             } },
             { "Digi Green", "reb", {
                 "\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_indp_co.paa"
+            } }
+        };
+    };
+	
+	///MOHAWK
+	class I_Heli_Transport_02_F 
+	{
+        vItemSpace = 125;
+		licenses[] = { {"pilot"}, {"cAir"}, {"mAir"}, {""} };
+		price = 3225000;
+        textures[] = {
+        	{ "Ion", "civ", {
+                "\a3\air_f_beta\Heli_Transport_02\Data\Skins\heli_transport_02_1_ion_co.paa",
+                "\a3\air_f_beta\Heli_Transport_02\Data\Skins\heli_transport_02_2_ion_co.paa",
+                "\a3\air_f_beta\Heli_Transport_02\Data\Skins\heli_transport_02_3_ion_co.paa"
+            } },
+            { "Dahoman", "civ", {
+                "\a3\air_f_beta\Heli_Transport_02\Data\Skins\heli_transport_02_1_dahoman_co.paa",
+                "\a3\air_f_beta\Heli_Transport_02\Data\Skins\heli_transport_02_2_dahoman_co.paa",
+                "\a3\air_f_beta\Heli_Transport_02\Data\Skins\heli_transport_02_3_dahoman_co.paa"
             } }
         };
     };

@@ -42,7 +42,7 @@ class Life_Settings {
     minimum_cops = 5; //Minimum cops required online to rob the Federal Reserve
 
     /* Basic System Configurations */
-    donor_level = false; //Enable the donor level set in database (var = life_donorlevel; levels = 0,1,2,3,4,5). ATTENTION! Before enabling, read: https://www.bistudio.com/community/game-content-usage-rules & https://www.bistudio.com/monetization
+    donor_level = true; //Enable the donor level set in database (var = life_donorlevel; levels = 0,1,2,3,4,5). ATTENTION! Before enabling, read: https://www.bistudio.com/community/game-content-usage-rules & https://www.bistudio.com/monetization
     enable_fatigue = false; //Set to false to disable the ARMA 3 fatigue system.
     total_maxWeight = 24; //Static variable for the maximum weight allowed without having a backpack
     respawn_timer = 320; //How many seconds a player should wait, before being able to respawn. Minimum 5 seconds.
@@ -123,6 +123,16 @@ class Life_Settings {
     vehicle_purchase_multiplier_COP = 0; //Cop Vehicle Buy Price = Config_Vehicle price * multiplier
     vehicle_purchase_multiplier_MEDIC = 0; //Medic Vehicle Buy Price = Config_Vehicle price * multiplier
     vehicle_purchase_multiplier_OPFOR = -1; // -- NOT IN USE -- Simply left in for east support.
+	
+	/* Vehicle Donor Prices */
+    vehicle_purchase_multiplier_DONOR1 = .7; //Civilian Vehicle Buy Price = Config_Vehicle price * multiplier
+    vehicle_purchase_multiplier_DONOR2 = .6; //Civilian Vehicle Buy Price = Config_Vehicle price * multiplier
+    vehicle_purchase_multiplier_DONOR3 = .5; //Civilian Vehicle Buy Price = Config_Vehicle price * multiplier
+	
+	/* Vehicle Donor Prices */
+    vehicle_rental_multiplier_DONOR1 = .6; //Civilian Vehicle Buy Price = Config_Vehicle price * multiplier
+    vehicle_rental_multiplier_DONOR2 = .5; //Civilian Vehicle Buy Price = Config_Vehicle price * multiplier
+    vehicle_rental_multiplier_DONOR3 = .4; //Civilian Vehicle Buy Price = Config_Vehicle price * multiplier
 
     /* Vehicle Rental Prices */
     vehicle_rental_multiplier_CIVILIAN = .80; //Civilian Vehicle Rental Price = Config_Vehicle price * multiplier

@@ -22,6 +22,18 @@ switch (playerSide) do {
     case civilian: {
         _buyMultiplier = LIFE_SETTINGS(getNumber,"vehicle_purchase_multiplier_CIVILIAN");
         _rentMultiplier = LIFE_SETTINGS(getNumber,"vehicle_rental_multiplier_CIVILIAN");
+		if (FETCH_CONST(life_donorlevel) isEqualTo 1) then {
+			_buyMultiplier = LIFE_SETTINGS(getNumber,"vehicle_purchase_multiplier_DONOR1");
+			_rentMultiplier = LIFE_SETTINGS(getNumber,"vehicle_rental_multiplier_DONOR1");
+		};
+		if (FETCH_CONST(life_donorlevel) isEqualTo  2) then {
+			_buyMultiplier = LIFE_SETTINGS(getNumber,"vehicle_purchase_multiplier_DONOR2");
+			_rentMultiplier = LIFE_SETTINGS(getNumber,"vehicle_rental_multiplier_DONOR2");
+		};
+		if (FETCH_CONST(life_donorlevel) isEqualTo  3) then {
+			_buyMultiplier = LIFE_SETTINGS(getNumber,"vehicle_purchase_multiplier_DONOR3");
+			_rentMultiplier = LIFE_SETTINGS(getNumber,"vehicle_rental_multiplier_DONOR3");
+		};
     };
     case west: {
         _buyMultiplier = LIFE_SETTINGS(getNumber,"vehicle_purchase_multiplier_COP");

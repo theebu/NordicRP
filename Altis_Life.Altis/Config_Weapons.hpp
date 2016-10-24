@@ -61,6 +61,27 @@ class WeaponShops {
             { "acc_flashlight", "", 1000 }
         };
     };
+	
+	class bmarket {
+        name = "Black Market";
+        side = "civ";
+        license = "";
+        level[] = { "", "", -1, "" };
+        items[] = {
+            { "arifle_TRG20_F", "", 350000, 55500 },
+            { "arifle_SDAR_F", "", 300000, 7500 }
+        };
+        mags[] = {
+            { "30Rnd_556x45_Stanag", "", 300 },
+            { "20Rnd_556x45_UW_mag", "", 125 }
+        };
+        accs[] = {
+            { "optic_ACO_grn", "", 3500 },
+            { "optic_Holosight", "", 3600 },
+			{ "optic_LRPS", "", 110600 },
+            { "acc_flashlight", "", 1000 }
+        };
+    };
 
     class gang {
         name = "Hideout Armament";
@@ -68,8 +89,6 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "hgun_Rook40_F", "", 21500, 500 },
-            { "hgun_Pistol_heavy_02_F", "", 31000, -1 },
             { "hgun_Rook40_F", "", 20500, 500 },
             { "hgun_Pistol_heavy_02_F", "", 31500, -1 },
             { "hgun_ACPC2_F", "", 35000, -1 },
@@ -82,7 +101,87 @@ class WeaponShops {
             { "30Rnd_9x21_Mag", "", 75 }
         };
         accs[] = {
-            { "optic_ACO_grn_smg", "", 950 }
+            { "optic_ACO_grn_smg", "", 3350 }
+        };
+    };
+	
+
+    class donator1 {
+        name = "Donator Shop";
+        side = "civ";
+        license = "donator1";
+        level[] = { "", "", -1, "" };
+        items[] = {
+        	{ "hgun_Rook40_F", "", 13000 },
+		    { "hgun_ACPC2_F", "", 20500 },
+			{ "hgun_PDW2000_F", "", 50000 },
+			{ "ToolKit", "", 50 },
+			{ "itemgps", "", 150 },
+			{ "FirstAidKit", "", 100 }
+        };
+        mags[] = {
+			{ "16Rnd_9x21_Mag", "", 125 },
+			{ "30Rnd_9x21_Mag", "", 150 },
+			{ "9Rnd_45ACP_Mag", "", 50 }
+        };
+        accs[] = {
+			{ "optic_ACO_grn_smg", "", 5500 }
+        };
+    };
+	
+
+    class donator2 {
+        name = "Donator Shop";
+        side = "civ";
+        license = "donator2";
+        level[] = { "", "", -1, "" };
+        items[] = {
+		    { "arifle_MK20C_plain_F", "", 230000 },
+        	{ "hgun_Rook40_F", "", 13000 },
+		    { "hgun_ACPC2_F", "", 20500 },
+			{ "hgun_PDW2000_F", "", 50000 },
+			{ "ToolKit", "", 50 },
+			{ "itemgps", "", 150 },
+			{ "FirstAidKit", "", 100 }
+        };
+        mags[] = {
+			{ "16Rnd_9x21_Mag", "", 125 },
+			{ "30Rnd_9x21_Mag", "", 150 },
+			{ "30Rnd_556x45_Stanag", "", 250 },
+			{ "9Rnd_45ACP_Mag", "", 50 }
+        };
+        accs[] = {
+			{ "optic_ACO_grn_smg", "", 5500 }
+        };
+    };
+	
+
+    class donator3 {
+        name = "Donator Shop";
+        side = "civ";
+        license = "donator3";
+        level[] = { "", "", -1, "" };
+        items[] = {
+        	{ "hgun_Rook40_F", "", 9000 },
+		    { "hgun_ACPC2_F", "", 10500 },
+			{ "hgun_PDW2000_F", "", 50000 },
+			{ "arifle_MK20C_plain_F", "", 230000 },
+			{ "V_Rangemaster_belt", "", 15000 },
+			{ "NVGoggles", "", 10000 },
+			{ "ToolKit", "", 50 },
+			{ "itemgps", "", 150 },
+			{ "FirstAidKit", "", 150 }
+        };
+        mags[] = {
+			{ "16Rnd_9x21_Mag", "", 125 },
+			{ "30Rnd_9x21_Mag", "", 150 },
+			{ "30Rnd_556x45_Stanag", "", 250 },
+			{ "9Rnd_45ACP_Mag", "", 50 },
+        };
+        accs[] = {
+			{ "optic_ACO_grn_smg", "", 5500 },
+			{ "acc_pointer_IR", "", 1250 },
+			{ "optic_MRCO", "", 75000 }
         };
     };
 

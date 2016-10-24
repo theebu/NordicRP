@@ -41,7 +41,7 @@ _masks = LIFE_SETTINGS(getArray,"clothing_masks");
             if (count _sPos > 1 && {_distance < 15}) then {
                 _text = switch (true) do {
                     case (_x in (units group player) && playerSide isEqualTo civilian): {format["<t color='#00FF00'>%1</t>",(_x getVariable ["realname",name _x])];};
-                    case (side _x isEqualTo west && {!isNil {_x getVariable "rank"}}): {format["<img image='%1' size='1'></img> %2<br/><t color='#42b6f4'>%3</t>",switch ((_x getVariable "rank")) do {
+                    case (side _x isEqualTo west && {!isNil {_x getVariable "rank"}}): {if (life_cop_Undercover) then {format["<t color='#00FF00'>%1</t>",(_x getVariable ["realname",name _x])];} else {format["<img image='%1' size='1'></img> %2<br/><t color='#42b6f4'>%3</t>",switch ((_x getVariable "rank")) do {
                         case 2: {"icons\rank9.paa"};
                         case 3: {"icons\rank8.paa"};
                         case 4: {"icons\rank7.paa"};
